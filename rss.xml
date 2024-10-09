@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>ldstephens</title>
+        <link>https://ldstephens.me</link>
+        <description>A blog about technology.</description>
+        <language>en-us</language>
+        <lastBuildDate>Wed, 27 Sep 2024 18:22:44 -0000</lastBuildDate>
+
+        <!-- Atom link to the feed itself -->
+        <atom:link href="https://lstep.xyz/rss.xml" rel="self" type="application/rss+xml" />
+
+     <item>
+      <title>Mac quick tip!</title>
+      <link>https://lstep.xyz/posts/mac-quick-tip</link>
+      <description>Here’s a quick tip for Mac users.</description>
+      <pubDate>Sat, 05 Oct 2024 16:52:30 -0400</pubDate>
+      <guid>https://lstep.xyz/posts/mac-quick-tip</guid>
+    </item>
+
+    </channel>
+</rss>
