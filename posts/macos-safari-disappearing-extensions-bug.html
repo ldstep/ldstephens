@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>macOS Safari disappearing extensions bug</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="../blog.html">Blog</a>
+        <a href="../uses.html">Uses</a>
+        <a href="notes.html">Notes</a>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <h1>ldstephens</h1>
+        <h2>macOS Safari disappearing extensions bug</h2>
+        <div class="post-meta">Posted on December 9, 2021 by Loren</div>
+       	<p>Yesterday 3 web extensions disappeared from Safari Bitwarden, Goodlinks, and Wipr Extra. Weird? I emailed Bitwarden and Goodlinks support hoping to get an answer as to why and how to restore them.</p>
+
+		<p>Here’s the response and how to get them back:</p>
+
+		<p>This is posted in the <a href="https://giorgiocalderolla.com/wipr-faq.html">Wipr FAQ</a>:</p>
+
+		<blockquote>
+  		<p>Wipr Extra Is Missing</p>
+
+		<p>If you can see Wipr Part 1 2 and 3 in Safari’s Preferences under Extensions, but not Wipr Extra, you’re being bit by a bug. Safari can’t seem to reliably index Web Extensions like Wipr Extra.</p>
+
+		<p>Note that this affects all Web Extensions, not just Wipr, and there is absolutely nothing I can do about it. Please complain to Apple – the more people complain, the sooner they’ll fix this.</p>
+
+		<p>The following Terminal command has been reported to fix the issue (at least temporarily):</p>
+		<p>/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -f -R /Applications/Safari.app</p>
+		</blockquote>
+
+		<p>I got a similar response from GoodLinks support in an email.</p>
+
+		<blockquote>
+ 		 <p>Hi Loren,</p>
+
+		<p>Could you try quitting Safari completely and running this command in Terminal?</p>
+
+		<p>/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -f /Applications/Safari.app</p>
+
+		<p>If it still not work, try restarting your Mac after running that command.</p>
+
+		<p>Thanks, Ngoc</p>
+		</blockquote>
+
+		<p>I can confirm that the terminal command reinstated the missing extensions.</p>
+        <a href="../blog.html" class="back-home">Back to Blog</a>
+    </div>
+
+    <footer>
+    	<p><a href="https://ldstephens.me/rss.xml">RSS Feed</a> | <a href="https://letterbird.co/ldstephens">Email Me</a></p>
+         &copy; 2021-2024 ldstephens.me - All Rights Reserved
+    </footer>
+
+</body>
+</html>
