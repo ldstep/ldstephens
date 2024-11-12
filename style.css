@@ -3,7 +3,7 @@
     ---font-main: 'Menlo', monospace;
     --font-secondary: 'Menlo', monospace;
     --font-scale: 1em;
-    --background-color: #F3F4F6; /* old #fff */
+    --background-color: #fff; /* old #fff */
     --heading-color: #222; /* old #222 */
     --text-color: #444;
     --link-color: #3273dc;
@@ -170,4 +170,37 @@ nav a {
 }
 nav a:hover {
     background: var(--shade-color);
+}
+
+/* CSS for blog list order formatting */
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: var(--width); /* Set max width based on root variable */
+}
+
+li {
+    display: flex;
+    gap: 10px; /* Space between date and title */
+    align-items: flex-start;
+    font-family: var(--font-main);
+    color: var(--text-color);
+}
+
+span {
+    min-width: 100px; /* Adjust as needed to reserve space for date */
+    font-weight: normal;
+    color: var(--text-color);
+}
+
+a {
+    flex: 1;
+    text-decoration: none;
+    color: var(--link-color);
+    font-family: var(--font-main);
+}
+
+a:visited {
+    color: var(--visited-color);
 }
