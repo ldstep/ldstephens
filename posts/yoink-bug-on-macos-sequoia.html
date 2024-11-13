@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoink Bug on macOS Sequoia</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="../blog.html">Blog</a>
+        <a href="../uses.html">Uses</a>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <h1>Yoink Bug on macOS Sequoia</h1>
+        <div class="post-meta">Posted on October 9, 2024 by Loren</div>
+        <p>Hey friends, if you’re using <a href="https://eternalstorms.at/yoink/mac/">Yoink</a> on macOS Sequoia (15.0/15.0.1), you might have noticed an annoying bug where Yoink stops accepting files. I’ve personally run into this issue, and it’s affecting many users of apps that handle file URLs and rely on security-scoped bookmarks.</p>
+
+        <p>The root cause? A macOS bug in the “ScopedBookmarkAgent” process, confirmed by a CoreOS engineer on the Apple Developer Forums. Unfortunately, 3rd-party developers can’t fix this—Apple has to.</p>
+        
+        <p>The good news: macOS 15.1 is expected to fix the issue, and things should return to normal!</p>
+        
+        <blockquote>
+          <p>As a temporary workaround, you can:– Quit Yoink (or any other afflicted app)– Using Activity Monitor.app, quit the ScopedBookmarkAgent process– Relaunch Yoink (or any other afflicted app), and it should work again (for a while)</p>
+        </blockquote>
+        
+        <p><a href="https://blog.eternalstorms.at/2024/10/09/psa-a-bug-in-macos-15-sequoia-is-causing-issues-in-yoink-transloader-and-other-devs-apps/">Matthias</a></p>
+        
+        <a href="../blog.html" class="back-home">Back to Blog</a>
+    </div>
+
+    <footer>
+        <p><a href="https://ldstephens.me/feed.xml">RSS Feed</a> | <a href="https://letterbird.co/ldstephens">Email Me</a></p>
+       &copy;ldstephens - All Rights Reserved
+    </footer>
+
+</body>
+</html>

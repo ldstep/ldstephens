@@ -172,35 +172,36 @@ nav a:hover {
     background: var(--shade-color);
 }
 
-/* CSS for blog list order formatting */
-
-ul {
-    list-style-type: none;
-    padding: 0;
-    max-width: var(--width); /* Set max width based on root variable */
+/* blog.html styling */
 }
 
-li {
+.blog-page ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: var(--width);
+}
+
+.blog-page li {
     display: flex;
-    gap: 10px; /* Space between date and title */
+    gap: 10px;
     align-items: flex-start;
     font-family: var(--font-main);
     color: var(--text-color);
 }
 
-span {
-    min-width: 100px; /* Adjust as needed to reserve space for date */
+.blog-page span {
+    min-width: 100px;
     font-weight: normal;
     color: var(--text-color);
 }
 
-a {
+.blog-page a {
     flex: 1;
     text-decoration: none;
     color: var(--link-color);
     font-family: var(--font-main);
 }
 
-a:visited {
+.blog-page a:visited {
     color: var(--visited-color);
 }
