@@ -1,11 +1,13 @@
-# Exclude specific paths
-/index    /index    200
-/blog     /blog     200
-/uses     /uses     200
-/about-this-site  /about-this-site  200
+# Exact path redirects first
+/feed /feed.xml 301
 
-# Redirect only posts
-/:slug    /posts/:slug    301
+# Specific page paths
+/blog /blog 200
+/uses /uses 200
+/about-this-site /about-this-site 200
 
-# Redirect the feed
-/feed     /feed.xml    301
+# Dynamic post redirects
+/:slug /posts/:slug 301
+
+# Catch-all should be last
+/* /index 200
