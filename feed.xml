@@ -7,10 +7,20 @@
         <atom:link href="https://ldstephens.me/feed.xml" rel="self" type="application/rss+xml" />
 
         <item>
-            <title>2024-11-14 Blog update</title>
-            <link>https://ldstephens.me/posts/2024-11-14-blog-update</link>
-            <pubDate>Thu, 14 Nov 2024 11:06:21 -0500</pubDate>
-            <description>Static site update.</description>
+            <title>Re: Bluesky? Mastodon? get your own blog instead</title>
+            <link>https://ldstephens.me/posts/re-bluesky-mastodon-get-your-own-blog-instead</link>
+            <description>
+            <![CDATA[
+            <blockquote>
+            <p>I’ve been thinking about this sudden rush to Bluesky and I have started to use it a little more but I keep coming down to the mindset you could just get your own blog instead.</p>
+            </blockquote>
+          
+            <p><a href="https://ljpuk.net/2024/11/15/bluesky-mastodon-get-your-own-blog-instead/">Lee Peterson</a></p>
+          
+            <p>I also noticed the rush to Bluesky, so I reactivated my account the other day to see what was happening. Today, I deactivated my account again. I just don’t get the point of social media. To me, it’s nonsensical (my opinion). It’s probably that I’m old school and would rather read your blog in my RSS feed.</p>        
+             ]]>
+             </description>
+            <pubDate>Fri, 15 Nov 2024 14:42:36 -0500</pubDate>   
         </item>
     </channel>
 </rss>
