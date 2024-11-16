@@ -7,20 +7,20 @@
         <atom:link href="https://ldstephens.me/feed.xml" rel="self" type="application/rss+xml" />
 
         <item>
-            <title>Re: Bluesky? Mastodon? get your own blog instead</title>
-            <link>https://ldstephens.me/posts/re-bluesky-mastodon-get-your-own-blog-instead</link>
+            <title>Colophon</title>
+            <link>https://ldstephens.me/posts/2024-11-16-colophon</link>
             <description>
             <![CDATA[
-            <blockquote>
-            <p>I’ve been thinking about this sudden rush to Bluesky and I have started to use it a little more but I keep coming down to the mindset you could just get your own blog instead.</p>
-            </blockquote>
-          
-            <p><a href="https://ljpuk.net/2024/11/15/bluesky-mastodon-get-your-own-blog-instead/">Lee Peterson</a></p>
-          
-            <p>I also noticed the rush to Bluesky, so I reactivated my account the other day to see what was happening. Today, I deactivated my account again. I just don’t get the point of social media. To me, it’s nonsensical (my opinion). It’s probably that I’m old school and would rather read your blog in my RSS feed.</p>        
+            <p>Hey friends, building this site has been a several-month project. I had a lot of stops and starts, but in the end, I persevered and it’s finally finished.</p>
+
+            <p>This blog is built using static <a href="https://htmlforpeople.com/">HTML and CSS</a> and is hosted on <a href="https://www.netlify.com/">Netlify</a>. It automatically deploys when I commit changes to the <a href="https://github.com/ldstep/ldstephens">public GitHub repo</a>.</p>
+
+            <p>When adding new posts, changing the design, or adding new features, that is done in <a href="https://code.visualstudio.com/">VS Code</a>.</p>
+
+            <p>New posts are written in Markdown in <a href="https://getdrafts.com">Drafts</a> and copied as HTML to add to a new post in VS Code.</p>      
              ]]>
              </description>
-            <pubDate>Fri, 15 Nov 2024 15:10:36 -0500</pubDate>   
+            <pubDate>Sat, 16 Nov 2024 09:26:36 -0500</pubDate>   
         </item>
     </channel>
 </rss>
