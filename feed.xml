@@ -7,32 +7,18 @@
         <atom:link href="https://ldstephens.me/feed.xml" rel="self" type="application/rss+xml" />
 
         <item>
-            <title>Mac tip: navigating and selecting text from the keyboard</title>
-            <link>https://ldstephens.me/posts/mac-tip-navigating-and-selecting-text-from-the-keyboard</link>
+            <title>Cancel a drag and drop on Mac</title>
+            <link>https://ldstephens.me/posts/cancel-a-drag-and-drop-on-mac</link>
             <description>
             <![CDATA[
-            <p>Hey friends, I have Gary’s <a href="https://macmost.com/">MacMost Mac Video Tutorials and Tips</a> in my RSS feed and the other day I saved this video <a href="https://macmost.com/10-things-you-didnt-know-you-could-do-with-just-the-keyboard.html">10 Things You Didn’t Know You Could Do With Just the Keyboard</a> in Goodlinks to watch later. Well, I finally got around to watching it. By the way, if you love the Mac, MacMost is a great resource for tons of tutorials on how to use your Mac better.</p>
+            <p>While walking this morning and listening to ATP episode 614, the subject of how to cancel a drag and drop came up again. Of course, <a href="https://hypercritical.co/about/">John Siracus</a> knew the answer. I didn’t. I was glad to learn the answer because there have been times that I have started a drag and drop to move files to a different folder, and for some reason, it gets fucked up (user error missing the target folder), and I always panic and want to end the drag and drop.</p>
 
-            <p>This video highlights hidden macOS tricks for text navigation and selection using the keyboard. Here’s the gist:</p>
+            <p>According to John, all you need to do is <em>use the escape key</em>. I tested it and it works.</p>
 
-            <ul>
-            <li>Use the arrow keys to move the text cursor back and forth.</li>
-            <li>Hold the <strong>Shift key</strong> while using the arrow keys to select text:</li>
-            <li><strong>Shift + Right Arrow</strong> selects one character at a time.</li>
-            <li>You can type, replace, or paste over the selected text.</li>
-            <li>Use the <strong>Option key</strong> for word-based movement:</li>
-            <li><strong>Option + Right/Left Arrow</strong> jumps by word.</li>
-            <li>Add <strong>Shift</strong> to select one word at a time (<strong>Shift + Option + Right/Left Arrow</strong>).</li>
-            <li>Use the <strong>Up/Down Arrow keys</strong> to navigate vertically:</li>
-            <li>Add <strong>Shift</strong> to select text while moving up or down.</li>
-            <li><strong>Option + Down Arrow</strong> jumps by paragraph.</li>
-            <li>Add <strong>Shift</strong> to select paragraphs (<strong>Shift + Option + Down Arrow</strong>), and use <strong>Down Arrow</strong> repeatedly to select multiple paragraphs.</li>
-            </ul>
-
-            <p>Check it out, you’ll probably pick up a few new tricks!</p>
+            <p>Thanks, John!</p>
              ]]>
              </description>
-            <pubDate>Wed, 20 Nov 2024 09:12:30 -0500</pubDate>   
+            <pubDate>Sat, 23 Nov 2024 10:38 -0500</pubDate>   
         </item>
     </channel>
 </rss>
