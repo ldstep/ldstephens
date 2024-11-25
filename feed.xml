@@ -7,18 +7,18 @@
         <atom:link href="https://ldstephens.me/feed.xml" rel="self" type="application/rss+xml" />
 
         <item>
-            <title>Cancel a drag and drop on Mac</title>
-            <link>https://ldstephens.me/posts/cancel-a-drag-and-drop-on-mac</link>
+            <title>To POSSE or not to POSSE</title>
+            <link>https://ldstephens.me/posts/to-posse-or-not-to-posse</link>
             <description>
             <![CDATA[
-            <p>While walking this morning and listening to ATP episode 614, the subject of how to cancel a drag and drop came up again. Of course, <a href="https://hypercritical.co/about/">John Siracus</a> knew the answer. I didn’t. I was glad to learn the answer because there have been times that I have started a drag and drop to move files to a different folder, and for some reason, it gets fucked up (user error missing the target folder), and I always panic and want to end the drag and drop.</p>
+            <p><a href="https://indieweb.org/POSSE">POSSE</a>? It stands for &quot;Publish on your Own Site, Syndicate Elsewhere&quot; - basically where you post stuff on your site first, then share it around on social media and whatnot, always linking back to your original post.</p>
 
-            <p>According to John, all you need to do is <em>use the escape key</em>. I tested it and it works.</p>
+            <p>Thing is, I've been wondering if I should be doing this. And for me, it's clearly no. Since I don't use social media, why would I want to put my blog posts there? Sure, maybe I'd pick up a few more RSS subscribers, but that's not why I'm blogging in the first place.</p>
 
-            <p>Thanks, John!</p>
+            <p>My blog is its own thing. It’s mainly just a place to get my thoughts out there. My RSS followers are my people, and I pick up new ones now and then when other bloggers link to something I wrote. And that’s perfectly fine with me.</p>
              ]]>
              </description>
-            <pubDate>Sat, 23 Nov 2024 10:38 -0500</pubDate>   
+            <pubDate>Mon, 25 Nov 2024 09:32 -0500</pubDate>   
         </item>
     </channel>
 </rss>
