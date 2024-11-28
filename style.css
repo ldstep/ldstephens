@@ -206,3 +206,18 @@ nav a:hover {
 .blog-page a:visited {
     color: var(--visited-color);
 }
+
+/* notes.html styling */
+.note {
+    background-color: var(--shade-color);
+    border-left: 4px solid var(--link-color);
+    padding: 15px;
+    margin-bottom: 20px;
+ }
+ 
+ .note-date {
+    color: var(--text-color);
+    font-family: monospace;
+    font-size: 1.em;
+    margin-bottom: 10px;
+ }
