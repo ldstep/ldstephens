@@ -7,18 +7,24 @@
         <atom:link href="https://ldstephens.me/feed.xml" rel="self" type="application/rss+xml" />
 
         <item>
-            <title>Sticking My Head in the Sand (But Not Really)</title>
-            <link>https://ldstephens.me/posts/sticking-my-head-in-the-sand-but-not-really</link>
+            <title>Switching blogging engines</title>
+            <link>https://ldstephens.me/posts/switching-blogging-engines</link>
             <description>
             <![CDATA[
-            <p>I’ve spent way too much time over the last 12 months paying way too much <em>fucking</em> attention to political news. The US election is over. I’m over it. I’ve purged all news from my RSS feed, including any blogs that can’t resist regularly interjecting politics into their content. Gone. Done. Also? No more 24-hour news channels.</p>
+            <p>I just read Jack Bay’s post <a href="https://baty.net/2024/12/from-hugo-to-ghost-and-back-again/">From Hugo to Ghost and back again</a> about how often he switches up his blogging engine.</p>
 
-            <p>I’m old. I want to enjoy what’s left of this ride. I don’t want to spend my final years fretting about everything that’s coming down the pike that I don’t agree with. Do I care? Hell yes, I care. But let’s be real, there’s nothing I can do to change it. And let’s face it, nobody’s going to be thrilled with everything that’s coming anyway, no matter who you voted for.</p>
+            <blockquote>
+            <p>I can hear you all giggling. Ha ha very funny, Jack changed his blog again. I get it. Most normal people don’t change blogging engines every month or two.[…] Also, and maybe most importantly, I prefer static websites. The arguments in favor of static websites are enough, but they aren’t why I want a static site. It <em>feels</em> better having a static website. The actual publishing part can be a pain in the ass (:::cough::, Hugo) but the results are worth it. A folder full of HTML files and some images, starting on my local drive and synced to a simple web server…mmmmm, yummy.</p>
+            </blockquote>
 
-            <p>So, am I sticking my head in the sand? Nope. I’m still watching the national news on broadcast TV, you know, the regular stuff that gives me what I need to know without dragging me into the political abyss. I’ll stay informed, but the days of letting politics hijack my fucking sanity are over.</p>
+            <p>This reminds me a bit of myself. You may have noticed that after switching this blog to a static site, I&#8217;ve moved it back to Bearblog and then back to static a couple of times over the last few weeks. Much like Jack, it just feels better to have a static website. I take pride in something I&#8217;ve built, and my content isn&#8217;t locked inside Bear.</p>
+
+            <p>And yes, I agree &#8211; publishing with a static site is a pain in the ass, but it&#8217;s worth the extra effort.</p>
+
+            <p>To stop the constant switching, I decided to close my Bear account. In the end, this entire site is just a folder full of HTML files on my SSD, synced to GitHub and hosted on Netlify.</p>
              ]]>
              </description>
-            <pubDate>Tue, 26 Nov 2024 14:21 -0500</pubDate>   
+            <pubDate>Tue, 03 Dec 2024 10:36 -0500</pubDate>   
         </item>
     </channel>
 </rss>
