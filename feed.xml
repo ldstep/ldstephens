@@ -7,24 +7,18 @@
         <atom:link href="https://ldstephens.me/feed.xml" rel="self" type="application/rss+xml" />
 
         <item>
-            <title>Switching blogging engines</title>
-            <link>https://ldstephens.me/posts/switching-blogging-engines</link>
+            <title>Drafts: the best $20 bucks I spend every year</title>
+            <link>https://ldstephens.me/posts/drafts-the-best-20-bucks-i-spend-every-year</link>
             <description>
             <![CDATA[
-            <p>I just read Jack Bay’s post <a href="https://baty.net/2024/12/from-hugo-to-ghost-and-back-again/">From Hugo to Ghost and back again</a> about how often he switches up his blogging engine.</p>
+            <p>Hey friends, I want to give a shout-out to <a href="https://getdrafts.com">Drafts</a>! It’s the best $20 bucks I spend every year. I first installed Drafts in 2014, when it was only available on iOS. Then, in 2019, Drafts came to the Mac. Drafts is my all-time favorite app and is where every bit of text starts: blog ideas, random thoughts, notes, you name it.</p>
 
-            <blockquote>
-            <p>I can hear you all giggling. Ha ha very funny, Jack changed his blog again. I get it. Most normal people don’t change blogging engines every month or two.[…] Also, and maybe most importantly, I prefer static websites. The arguments in favor of static websites are enough, but they aren’t why I want a static site. It <em>feels</em> better having a static website. The actual publishing part can be a pain in the ass (:::cough::, Hugo) but the results are worth it. A folder full of HTML files and some images, starting on my local drive and synced to a simple web server…mmmmm, yummy.</p>
-            </blockquote>
+            <p>Whenever I have an idea or a thought, I immediately open Drafts and save it. It’s my go-to for quick note-taking. I use it to outline, draft, and format all my blog posts in Markdown. I keep everything organized with tags and workspaces. It’s also my personal information dump; with its amazing search, Drafts serves as my central repository for all the random bits of info I collect. On top of that, I’ve set up custom actions that let me do just about anything with my text: sending it to other apps, emailing it, saving it as a file, formatting it, and more.</p>
 
-            <p>This reminds me a bit of myself. You may have noticed that after switching this blog to a static site, I&#8217;ve moved it back to Bearblog and then back to static a couple of times over the last few weeks. Much like Jack, it just feels better to have a static website. I take pride in something I&#8217;ve built, and my content isn&#8217;t locked inside Bear.</p>
-
-            <p>And yes, I agree &#8211; publishing with a static site is a pain in the ass, but it&#8217;s worth the extra effort.</p>
-
-            <p>To stop the constant switching, I decided to close my Bear account. In the end, this entire site is just a folder full of HTML files on my SSD, synced to GitHub and hosted on Netlify.</p>
+            <p>If you’ve never tried Drafts, you gotta give it a try. There’s a free version to get you started.</p>
              ]]>
              </description>
-            <pubDate>Tue, 03 Dec 2024 10:36 -0500</pubDate>   
+            <pubDate>Sat, 07 Dec 2024 14:51 -0500</pubDate>   
         </item>
     </channel>
 </rss>
