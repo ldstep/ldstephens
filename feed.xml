@@ -7,32 +7,34 @@
         <atom:link href="https://ldstephens.me/feed.xml" rel="self" type="application/rss+xml" />
 
         <item>
-            <title>Re: Thoughts On Mangione</title>
-            <link>https://ldstephens.me/posts/re-thoughts-on-mangione</link>
+            <title>Re: Digital responsibilities</title>
+            <link>https://ldstephens.me/posts/re-digital-responsibilities</link>
             <description>
             <![CDATA[
-            <p>I’ve been thinking a lot about the state of healthcare in America in light of the murder of the United Healthcare CEO. I have hesitated writing about how I feel about this situation, but this morning, I read Dave Rogers, Nice Marmot <a href="https://nice-marmot.net/Archives/2024/December_2024.html#note_2570">blog post</a> about this very subject, so I thought I would say what I’m thinking.</p>
+            <p>I recently read <a href="https://manuelmoreale.com/digital-responsibilities">Manu's blog post</a> about a post going viral on Hacker News. After being shared on Hacker News by someone, his website experienced a massive traffic spike that would make most website owners nervous.</p>
 
-            <p>Dave:</p>
-
-            <blockquote>
-            <p>I hadn&#8217;t given a great deal of thought to how I feel about the murder of that CEO. (I&#8217;m not mentioning his name mostly because I can&#8217;t recall it at the moment; but also because I don&#8217;t think he&#8217;s worthy of _&#8220;Say his name!&#8221;_respect.) </p>
-            </blockquote>
+            <p>What caught my attention wasn't just the traffic surge but Manu's reflections on the broader question of online content sharing and the potential impact of sending unexpected waves of internet traffic to someone's website.</p>
 
             <blockquote>
-            <p>Trae Crowder is a stand-up comedian who has a YouTube channel called Liberal Redneck. I watch his videos because I <em>need</em> a laugh, and his are funny but also intelligent. <a href="https://youtu.be/aUcwZTWv2PY?si=ko0YNmGuWEo1KQfm">I found this one particularly thought provoking</a>, which is significant because I&#8217;d been kind of going out of my way <em>not</em> to think about it. My reaction is that I don&#8217;t find much to disagree with in his comments.</p>
+            <p>And so I’m wondering, if my site was big enough to cause problems, would then be my responsibility to be careful what I link to? Or should I just assume that other people out there know what they’re doing and I can keep linking without a second thought? My gut reaction tells me that it’s not really my responsibility to worry about the way other people run their sites but maybe I’m wrong and I should worry about that. <strong>I’d love to know what you think because this is one of those situations where I can see good arguments on both sides.</strong></p>
             </blockquote>
 
-            <p>Before reading Dave’s post, I read a <a href="https://www.newyorker.com/news/the-lede/what-the-murder-of-the-unitedhealthcare-ceo-brian-thompson-means-to-america">New Yorker article</a> by Jia Tolentino, “What the Murder of the United Healthcare C.E.O. Means to America&quot; and I wanted to point out that United Healthcare denies 32% of insurance claims. Yep, nearly a third of claims submitted to this company are denied. That’s double the industry average, according to The New Yorker.</p>
+            <p>ldstephens is a static site that runs on Netlify’s Free Plan. Here’s how it works:</p>
 
-            <p>The New Yorker quoted a person who posted on Reddit&#8217;s r/nurses forum, whose profile describes her as an I.C.U. nurse, wrote, &quot;Honestly, I&#8217;m not wishing anyone harm, but when you&#8217;ve spent so much time and made so much money by increasing the suffering of the humanity around you, it&#8217;s hard for me to summon empathy that you died”. Thompson, who became C.E.O. in 2021, had raised annual profits from twelve billion dollars to sixteen billion dollars during his tenure. He received more than ten million dollars in compensation last year.</p>
+            <ul>
+            <li>100 GB monthly bandwidth</li>
+            <li>10 GB storage</li>
+            <li>Progressive usage notifications at 50%, 75%, 90%, and 100% of monthly limits</li>
+            <li>Automatic site suspension if monthly limits are exceeded</li>
+            <li>Quick upgrade option to continue site availability</li>
+            </ul>
 
-            <p>Denying people the care they desperately need is fucking wrong and cruel. Yet, this level of corporate-driven harm has become so normalized in America that we barely blink at it.</p>
+            <p>As you can see a Hacker News viral moment could use up 100 GB of bandwidth fairly easily and could potentially suspend my site until the next month. </p>
 
-            <p>Along with Dave, I’m also in agreement with Liberal Redneck’s take on the Mangione matter.</p>
+            <p>I think what Manu is asking is how I would feel if he shared one of my posts and it, for some reason, went viral and, exceeded my bandwidth limit and knocked my site offline. Would I feel that he had any responsibility? My answer is no. It’s my responsibility to manage my site, and he is welcome to share anything that I write, just as I’m sharing what he wrote in this post and responding to it. </p>
              ]]>
              </description>
-            <pubDate>Wed, 11 Dec 2024 14:43 -0500</pubDate>   
+            <pubDate>Sat, 14 Dec 2024 10:52 -0500</pubDate>   
         </item>
     </channel>
 </rss>
