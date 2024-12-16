@@ -7,34 +7,40 @@
         <atom:link href="https://ldstephens.me/feed.xml" rel="self" type="application/rss+xml" />
 
         <item>
-            <title>Re: Digital responsibilities</title>
-            <link>https://ldstephens.me/posts/re-digital-responsibilities</link>
+            <title>App Defaults</title>
+            <link>https://ldstephens.me/posts/2024-12-24-app-defaults</link>
             <description>
             <![CDATA[
-            <p>I recently read <a href="https://manuelmoreale.com/digital-responsibilities">Manu's blog post</a> about a post going viral on Hacker News. After being shared on Hacker News by someone, his website experienced a massive traffic spike that would make most website owners nervous.</p>
-
-            <p>What caught my attention wasn't just the traffic surge but Manu's reflections on the broader question of online content sharing and the potential impact of sending unexpected waves of internet traffic to someone's website.</p>
-
-            <blockquote>
-            <p>And so I’m wondering, if my site was big enough to cause problems, would then be my responsibility to be careful what I link to? Or should I just assume that other people out there know what they’re doing and I can keep linking without a second thought? My gut reaction tells me that it’s not really my responsibility to worry about the way other people run their sites but maybe I’m wrong and I should worry about that. <strong>I’d love to know what you think because this is one of those situations where I can see good arguments on both sides.</strong></p>
-            </blockquote>
-
-            <p>ldstephens is a static site that runs on Netlify’s Free Plan. Here’s how it works:</p>
+            <p>Updated December 15, 2024: Inspired by <a href="https://defaults.rknight.me/">Hemispheric Views 097 - Duel of the Defaults</a>!</p>
 
             <ul>
-            <li>100 GB monthly bandwidth</li>
-            <li>10 GB storage</li>
-            <li>Progressive usage notifications at 50%, 75%, 90%, and 100% of monthly limits</li>
-            <li>Automatic site suspension if monthly limits are exceeded</li>
-            <li>Quick upgrade option to continue site availability</li>
+            <li>Mail Client: Mail</li>
+            <li>Mail Server: <a class="autolink" href="https://www.fastmail.com/?STKI=14726057">Fastmail</a></li>
+            <li>Notes: Drafts, Apple Notes</li>
+            <li>To-Do: GoodTask/Reminders</li>
+            <li>iPhone Photo Shooting: iOS Camera</li>
+            <li>Photo Management: Photos</li>
+            <li>Calendar: Fantastical</li>
+            <li>Cloud File Storage: iCloud</li>
+            <li>RSS: Reeder Classic</li>
+            <li>Contacts: Contacts</li>
+            <li>Browser: Safari, Firefox</li>
+            <li>Chat: Messages</li>
+            <li>Bookmarks: Goodlinks</li>
+            <li>Read It Later: Goodlinks</li>
+            <li>Reading: Kindle Paperwhite</li>
+            <li>Podcast: Overcast</li>
+            <li>Text: Drafts, iA Writer, VS Code</li>
+            <li>Launcher: Alfred</li>
+            <li>Spreadsheets: Numbers</li>
+            <li>Shopping Lists: Reminders</li>
+            <li>Podcasts: Overcast</li>
+            <li>Password Management: Bitwarden</li>
+            <li>Weather: Carrot Weather</li>
             </ul>
-
-            <p>As you can see a Hacker News viral moment could use up 100 GB of bandwidth fairly easily and could potentially suspend my site until the next month. </p>
-
-            <p>I think what Manu is asking is how I would feel if he shared one of my posts and it, for some reason, went viral and, exceeded my bandwidth limit and knocked my site offline. Would I feel that he had any responsibility? My answer is no. It’s my responsibility to manage my site, and he is welcome to share anything that I write, just as I’m sharing what he wrote in this post and responding to it. </p>
              ]]>
              </description>
-            <pubDate>Sat, 14 Dec 2024 10:52 -0500</pubDate>   
+            <pubDate>Mon, 16 Dec 2024 09:29 -0500</pubDate>   
         </item>
     </channel>
 </rss>
