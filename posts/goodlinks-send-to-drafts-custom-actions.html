@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Goodlinks send to Drafts Custom Actions</title>
+      <link rel="stylesheet" href="../style.css" />
+   </head>
+   <body>
+      <!-- Navigation -->
+      <nav>
+         <a href="../index.html">Home</a>
+         <a href="../blog.html">Blog</a>
+         <a href="../uses.html">Uses</a>
+      </nav>
+
+      <!-- Main Content -->
+      <div class="container">
+         <h1>Goodlinks send to Drafts Custom Actions</h1>
+         <div class="post-meta">Posted on December 20, 2023 by Loren</div>
+         <p>
+            If you use <a href="https://goodlinks.app/">Goodlinks</a> and
+            <a href="https://getdrafts.com/">Drafts</a>, I hope you're taking
+            advantage of Custom Actions. Custom Actions allow you to create your
+            actions to export and share your saved bookmarks. Additionally, you
+            can trigger URL schemes.
+         </p>
+
+         <p>
+            A while back
+            <a
+               href="https://medium.com/@ldstephens/how-to-create-custom-actions-in-goodlinks-4dbe4b87c881"
+               >I wrote</a
+            >
+            the following about Goodlinks:
+         </p>
+
+         <blockquote>
+            <p>
+               I love Goodlinks as my read-it-later app. Even though I love it
+               and think that it's the best reading experience of all
+               read-it-later apps I’ve still been using Instapaper for its Share
+               All Notes feature.
+            </p>
+         </blockquote>
+
+         <p>
+            In the latest release, version 1.8.5, Goodlinks introduced support
+            for new custom action tags that are going to let me eliminate the
+            need for Instapaper's Share All Notes: [selection-html],
+            [selection-markdown], and [selection-text] on iOS and iPadOS. These
+            tags will be handy as Goodlinks lacks a built-in highlighting and
+            export highlights feature. Now, I can select text in an article and
+            seamlessly send the selection to Drafts. This is especially handy
+            for creating link posts.
+         </p>
+
+         <p>
+            Here are my five most used Goodlinks send to Drafts actions, which
+            include two new actions specifically for selected text:
+         </p>
+
+         <p><strong>Markdown Title, URL – Drafts</strong></p>
+
+         <p><code>drafts://create?text={[}[title]{]}{(}[url]{)}</code></p>
+
+         <p>
+            This action sends the title and URL of the active article to Drafts
+            as markdown.
+         </p>
+
+         <p><strong>Markdown Title, URL, Selection – Drafts</strong></p>
+
+         <p>
+            <code
+               >drafts://create?text={[}[title]{]}{(}[url]{)}{
+               }[selection-text]</code
+            >
+         </p>
+
+         <p>
+            This action sends the active article's title, URL, and selected text
+            to Drafts as markdown.
+         </p>
+
+         <p><strong>Selection – Drafts</strong></p>
+
+         <p><code>drafts://create?text=[selection-text]</code></p>
+
+         <p>
+            This action sends the selected text in the active article to Drafts
+            as plain text.
+         </p>
+
+         <p><strong>Title, Author, URL, Selection – Drafts</strong></p>
+
+         <p>
+            <code
+               >drafts://create?text={#
+               }[title]%0A{*}[author]{*}%0A[url]%0A[selection-text]</code
+            >
+         </p>
+
+         <p>
+            This action sends the title, author, URL, and selected text in the
+            active article to Drafts as plain text.
+         </p>
+
+         <p><strong>Markdown Title, URL, Summary – Drafts</strong></p>
+
+         <p>
+            <code
+               >drafts://create?text={[}[title]{]}{(}[url]{)}{ }[summary]</code
+            >
+         </p>
+
+         <p>
+            This action sends the title, URL, and summary of the active article
+            to Drafts as markdown.
+         </p>
+
+         <a href="../blog.html" class="back-home">Back to Blog</a>
+      </div>
+
+      <footer>
+         <p>
+            <a href="https://ldstephens.me/feed.xml">RSS Feed</a> |
+            <a href="https://letterbird.co/ldstephens">Email Me</a>
+         </p>
+         &copy;ldstephens - All Rights Reserved
+      </footer>
+   </body>
+</html>
