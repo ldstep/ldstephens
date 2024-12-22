@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>
+         Apple Private Relay: It's not worth the Wi-Fi speed sacrifice
+      </title>
+      <link rel="stylesheet" href="../style.css" />
+   </head>
+   <body>
+      <!-- Navigation -->
+      <nav>
+         <a href="../index.html">Home</a>
+         <a href="../blog.html">Blog</a>
+         <a href="../uses.html">Uses</a>
+      </nav>
+
+      <!-- Main Content -->
+      <div class="container">
+         <h1>Apple Private Relay: It's not worth the Wi-Fi speed sacrifice</h1>
+         <div class="post-meta">Posted on October 26, 2023 by Loren</div>
+         <p>
+            A few days ago, I experienced an unexpected Wi-Fi slowdown, so I an
+            investigation. We have Gigabit internet, and our Wi-Fi typically
+            delivers speeds between 750 Mbps and 1000 Mbps. To start, I ran a
+            speed test on my Eero router and received 998 Mbps. That indicated
+            that the issue was between the router and my devices. Next, I
+            conducted speed tests on my MacBook and iPhone, but they were
+            achieving speeds between 150 Mbps and 250 Mbps. I was left
+            wondering, what the fuck could be causing this?
+         </p>
+
+         <p>
+            After some fiddling, I recalled that a few weeks ago, I had enabled
+            Apple Private Relay. It immediately struck me that this might be the
+            culprit. So, I disabled it on all my devices. An not to my surprise,
+            my Wi-Fi speeds returned to normal across all devices.
+         </p>
+
+         <p>
+            Private Relay is a network security feature provided by Apple to its
+            iCloud subscribers. It serves as an iCloud security feature that
+            safeguards your internet browsing history by routing your data
+            through two separate internet relays and encrypting your DNS
+            records.
+         </p>
+
+         <p>
+            While I do recognize the value of Apple Private Relay, it's clear
+            that the throughput needs significant improvement before I'll
+            consider turning it back on.
+         </p>
+
+         <a href="../blog.html" class="back-home">Back to Blog</a>
+      </div>
+
+      <footer>
+         <p>
+            <a href="https://ldstephens.me/feed.xml">RSS Feed</a> |
+            <a href="https://letterbird.co/ldstephens">Email Me</a>
+         </p>
+         &copy;ldstephens - All Rights Reserved
+      </footer>
+   </body>
+</html>
