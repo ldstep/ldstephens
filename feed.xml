@@ -7,45 +7,42 @@
         <atom:link href="https://ldstephens.me/feed.xml" rel="self" type="application/rss+xml" />
 
         <item>
-            <title>Apple's unwanted 18.2 Mail makeover</title>
-            <link>https://ldstephens.me/posts/apples-unwanted-182-mail-makeover</link>
+            <title>People don’t give a shit about Vision Pro</title>
+            <link>https://ldstephens.me/posts/people-dont-give-a-shit-about-vision-pro</link>
             <description>
             <![CDATA[
-            <p>I updated my iPhone to iOS 18.2 the other day and was pissed to find my Mail app hijacked by the categories and giant sender icons. I was more pissed that the update just forced these changes on me without even asking if I wanted these shitty<a href="#fn:1" id="fnref:1" title="see footnote" class="footnote"><sup>1</sup></a> new features.</p>
+            <p>
+            Back in January, I wrote a post
+            <a
+               href="https://ldstephens.me/posts/apples-vision-pro-who-actually-gives-a-shit"
+               >Apple&#8217;s Vision Pro: Who actually gives a shit?</a
+            >. &#8220;Vision Pro? Who gives a shit, right? That&#8217;s probably
+            what most folks on the sidewalk would say. And honestly, I get
+            it.&#8221;
+         </p>
 
-            <p>After fucking around for a while, I figured out how to turn these annoying new features off and return to the Mail interface that&#8217;s worked perfectly fine forever.</p>
+         <p>
+            Yesterday, Lisa and I we went to the Apple store to buy her a new
+            iPhone. It was my Christmas present to her. We traded in an iPhone
+            11 and purchased an iPhone 16 Pro. Considering the size of the crowd
+            in the store, we were there for a little over two hours. That
+            included purchasing the new phone, processing the trade-in, and the
+            setting up of the new phone.
+         </p>
 
-            <p>To disable sender icons, follow these steps:</p>
+         <p>
+            The Vision Pro had its own table in the back corner of the store. I
+            was keeping my eye on it because I was curious if anyone would go
+            over and check it out. In the two-plus hours that we were in the
+            store, not one person went to the table to check out the Vision Pro.
+         </p>
 
-            <ul>
-            <li>Open the Settings app on your iPhone</li>
-            <li>Scroll down and tap &#8220;Apps&#8221;</li>
-            <li>Find and tap &#8220;Mail&#8221;</li>
-            <li>Locate the &#8220;Message List&#8221; section</li>
-            <li>Toggle off the switch next to &#8220;Show Contact Photos&#8221;</li>
-            </ul>
-
-            <p>To disable categories, follow these steps:</p>
-
-            <ul>
-            <li>Open the Mail app on your iPhone</li>
-            <li>Tap the &#8220;More&#8221; button (three dots) in the upper right corner of your inbox</li>
-            <li>Select &#8220;List View&#8221; from the pop-up menu</li>
-            </ul>
-
-            <div class="footnotes">
-            <hr />
-            <ol>
-
-            <li id="fn:1">
-            <p>My opinion <a href="#fnref:1" title="return to body" class="reversefootnote">&#160;&#8617;&#xfe0e;</a></p>
-            </li>
-
-            </ol>
-            </div>
+         <p>
+            So I was right. People just don’t give a shit about the Vision Pro.
+         </p>
              ]]>
              </description>
-            <pubDate>Sat, 21 Dec 2024 15:00:19 -0500</pubDate>   
+            <pubDate>Fri, 27 Dec 2024 11:23:25 -0500</pubDate>   
         </item>
     </channel>
 </rss>
