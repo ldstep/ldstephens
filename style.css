@@ -207,3 +207,7 @@ nav a:hover {
     font-size: 1.em;
     margin-bottom: 10px;
  }
+
+footer {
+    font-size: 14px; /* Set to your desired size */
+}
