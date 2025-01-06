@@ -7,18 +7,35 @@
         <atom:link href="https://ldstephens.me/feed.xml" rel="self" type="application/rss+xml" />
 
         <item>
-            <title>New Year 2025</title>
-            <link>https://ldstephens.me/posts/new-year-2025</link>
+            <title>I’ve been doing it wrong</title>
+            <link>https://ldstephens.me/posts/ive-been-doing-it-wrong</link>
             <description>
             <![CDATA[
-            <p>Here we are again - another year has flown by! They seem to go by faster and faster, and 2024 was no exception. It&#8217;s hard to believe we&#8217;re already in 2025.</p>
+            <p>I&#8217;ve been using GitHub all wrong for this site. Instead of working from a cloned repository, I was just using a regular folder of files on my computer. Whenever I wanted to add a new post or make changes, I&#8217;d edit them in VS Code, then drag and drop the updated files directly into GitHub&#8217;s web interface. I knew this wasn&#8217;t the right way to do it, but I didn&#8217;t know any better. So, I started searching YouTube for a better way to handle it.</p>
 
-            <p>While I&#8217;m not one to dwell too much on the past, I will say that 2024 was a good year for Lisa and me. Looking ahead, my hope for 2025 is to continue living a healthy lifestyle and making the most of each day. I&#8217;ve got a couple of significant milestones coming up this year, which I&#8217;ll likely share more about when the time comes.</p>
+            <p>I came across this video <a href="https://www.youtube.com/watch?v=iv8rSLsi1xo">GitHub Tutorial - Beginner&#8217;s Training Guide - YouTube</a> that helped immensely.</p>
 
-            <p>Happy New Year, and thank you for being a reader!</p>
+            <p>What I needed to do was install GitHub Desktop and I needed to clone the repository locally.</p>
+
+            <p>Now GitHub Desktop connects GitHub, my local repository, and VS Code together. Here&#8217;s how it works:</p>
+
+            <ol>
+            <li><strong>Connecting to GitHub</strong>: GitHub Desktop links directly to my GitHub account, so I can easily clone repositories and sync my changes with the remote repositories on GitHub.</li>
+            <li><strong>Managing My Local Repository</strong>: When I clone a repository using GitHub Desktop, it creates a local copy on my computer. This is where I make changes and commit updates.</li>
+            <li><strong>Using Visual Studio Code (VS Code)</strong>: I&#8217;ve set VS Code as my default editor in GitHub Desktop. When I click &#8220;Open in Visual Studio Code,&#8221; it opens my local repository in VS Code, ready for me to start coding.</li>
+            <li><strong>Keeping Everything in Sync</strong>:</li>
+            </ol>
+
+            <ul>
+            <li>I write and edit my code in <strong>VS Code</strong>.</li>
+            <li>GitHub Desktop tracks the changes I make and lets me commit them.</li>
+            <li>Once I&#8217;ve committed, I can push my changes to GitHub or pull updates from the remote repository when needed.</li>
+            </ul>
+
+            <p>Honestly, taking the time to learn GitHub Desktop has made managing my static site so much easier. I can jump into VS Code to edit, track changes locally, and sync it all with GitHub in just a couple of clicks. It&#8217;s been a fucking game-changer.</p>
              ]]>
              </description>
-            <pubDate>Wed, 01 Jan 2025 16:48:08 -0500</pubDate>   
+            <pubDate>Mon, 06 Jan 2025 11:54:45 -0500</pubDate>   
         </item>
     </channel>
 </rss>
