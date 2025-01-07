@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>ldstephens notes</title>
+        <link>https://ldstephens.me/notes</link>
+        <description>A blog about technology.</description>
+        <atom:link href="https://ldstephens.me/notes-feed.xml" rel="self" type="application/rss+xml" />
+
+        <item>
+            <title>Notes</title>
+            <link>https://ldstephens.me/notes</link>
+            <description>
+            <![CDATA[
+            <blockquote>
+            <p>Anyway, I&#8217;m glad I got off Twitter, Facebook, Instagram and mastodon. You can quit. It&#8217;s difficult at first, and inconvenient always, but I can unequivocally state that my life is better without them.</p>
+            </blockquote>
+
+            <p><a href="https://nice-marmot.net/Archives/2025/January_2025.html#note_2621">Dave Rogers</a></p>
+
+            <p>Excellent fucking advice!</p>
+             ]]>
+             </description>
+            <pubDate>Tue, 07 Jan 2025 15:24:44 -0500</pubDate>   
+        </item>
+    </channel>
+</rss>
