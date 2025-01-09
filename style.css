@@ -211,3 +211,7 @@ nav a:hover {
 footer {
     font-size: 14px; /* Set to your desired size */
 }
+
+.footnotes {
+    font-size: smaller;   /* Relative to parent element */
+}

@@ -7,14 +7,27 @@
         <atom:link href="https://ldstephens.me/feed.xml" rel="self" type="application/rss+xml" />
 
         <item>
-            <title>ldstephens - notes</title>
-            <link>https://ldstephens.me/posts/ldstephens-notes</link>
+            <title>Send articles from iPhone to Kindle for reading later</title>
+            <link>https://ldstephens.me/posts/send-articles-from-iphone-to-kindle-for-reading-later</link>
             <description>
             <![CDATA[
-            <p>Hey friends, I have now added a <a href="https://ldstephens.me/notes">notes page</a> to the blog. Notes are shorter random posts, kinda like a microblog or what I would post on social media if I used social media, which I don’t. Notes include link posts as well. If you want to follow along, notes have their own <a href="https://ldstephens.me/notes-feed.xml">RSS Feed</a>.</p>
+            <p>The other day I saved an article to <a href="https://goodlinks.app">Goodlinks</a> to read later. Today I decided to read it and discovered that the article is a 33 minute read. I didn’t want to take the time to read it right then, I thought that’s something that I would like to read on my Kindle Paperwhite while I’m in bed this evening<sup><a href="#fn1-27410" id="fnr1-27410" title="see footnote" class="footnote">1</a></sup>. The next question is how the hell do I get this article on my Kindle? </p>
+
+            <p>It was easy. I opened the article on my iPhone and saved it to my Kindle via the share sheet save to Kindle. I wrote this to share a helpful tip I didn’t know about myself. If you’re interested in doing the same thing, I hope you find it useful!</p>
+
+            <div class="footnotes">
+            <hr />
+            <ol>
+
+            <li id="fn1-27410">
+            <p>I read in bed every night before going to sleep. <a href="#fnr1-27410" title="return to article" class="reversefootnote">&#8617;&#xFE0E;</a></p>
+            </li>
+
+            </ol>
+            </div>
              ]]>
              </description>
-            <pubDate>Tue, 07 Jan 2025 15:34:36 -0500</pubDate>   
+            <pubDate>Thu, 09 Jan 2025 10:40:02 -0500</pubDate>   
         </item>
     </channel>
 </rss>
