@@ -1,58 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GoodLinks to iA Writer Custom Actions</title>
-    <link rel="stylesheet" href="../style.css">
-</head>
-<body>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>GoodLinks to iA Writer Custom Actions</title>
+      <link rel="stylesheet" href="../style.css" />
+   </head>
+   <body>
+      <!-- Navigation -->
+      <nav>
+         <a href="../index.html">Home</a>
+         <a href="../blog.html">Blog</a>
+         <a href="../uses.html">Uses</a>
+      </nav>
 
-    <!-- Navigation -->
-    <nav>
-        <a href="../index.html">Home</a>
-        <a href="../blog.html">Blog</a>
-        <a href="../uses.html">Uses</a>
-    </nav>
+      <!-- Main Content -->
+      <div class="container">
+         <h1>GoodLinks to iA Writer Custom Actions</h1>
+         <div class="post-meta">Posted on June 17, 2024 by Loren</div>
+         <p>
+            Hey friends, as I mentioned the other day, I’m switching to
+            <a href="https://ia.net/writer">iA Writer</a> for my blogging and
+            writing. This means capturing my ideas directly in iA Writer. Since
+            <a href="https://goodlinks.app">GoodLinks</a> is my go-to
+            read-it-later app, I’ve created some Custom Actions that seamlessly
+            transfer content from GoodLinks to iA Writer.
+         </p>
 
-    <!-- Main Content -->
-    <div class="container">
-        <h1>GoodLinks to iA Writer Custom Actions</h1>
-        <div class="post-meta">Posted on June 17, 2024 by Loren</div>
-        <p>Hey friends, as I mentioned the other day, I’m switching to <a href="https://ia.net/writer">iA Writer</a> for my blogging and writing. This means capturing my ideas directly in iA Writer. Since <a href="https://goodlinks.app">GoodLinks</a> is my go-to read-it-later app, I’ve created some Custom Actions that seamlessly transfer content from GoodLinks to iA Writer.</p>
+         <p>
+            Previously, I wrote about
+            <a
+               href="https://ldstephens.me/how-to-create-custom-actions-in-goodlinks"
+               >creating Custom Actions</a
+            >
+            in GoodLinks and it included actions for sending content to Drafts.
+            I’m excited to share three Custom Actions for sending content from
+            GoodLinks to iA Writer with you.
+         </p>
 
-        <p>Previously, I wrote about <a href="https://ldstephens.me/how-to-create-custom-actions-in-goodlinks">creating Custom Actions</a> in GoodLinks and it included actions for sending content to Drafts. I’m excited to share three Custom Actions for sending content from GoodLinks to iA Writer with you.</p>
+         <p><strong>Title, Author, URL, Selection to iA</strong></p>
 
-        <p><strong>Title, Author, URL, Selection to iA</strong></p>
+         <p>
+            <code>
+               ia-writer://x-callback-url/new?text=[title]%0A{_}[author]{_}%0A[url]%0A[selection-text]
+            </code>
+         </p>
 
-        <p><code>
-        ia-writer://x-callback-url/new?text=[title]%0A{_}[author]{_}%0A[url]%0A[selection-text]
-        </code></p>
+         <p>
+            This action sends the title, author, URL, and selected text in the
+            active article to iA Writer as plain text.
+         </p>
 
-        <p>This action sends the title, author, URL, and selected text in the active article to iA Writer as plain text.</p>
+         <p><strong>Selection - iA</strong></p>
 
-        <p><strong>Selection - iA</strong></p>
+         <p>
+            <code> ia-writer://x-callback-url/new?text=[selection-text] </code>
+         </p>
 
-        <p><code>
-        ia-writer://x-callback-url/new?text=[selection-text]
-        </code></p>
+         <p>
+            This action sends the selected text in the active article to iA
+            Writer as plain text.
+         </p>
 
-        <p>This action sends the selected text in the active article to iA Writer as plain text.</p>
+         <p><strong>Markdown Title, URL - iA</strong></p>
 
-        <p><strong>Markdown Title, URL - iA</strong></p>
+         <p>
+            <code>
+               ia-writer://x-callback-url/new?text={[}[title]{]}{(}[url]{)}
+            </code>
+         </p>
 
-        <p><code>
-        ia-writer://x-callback-url/new?text={[}[title]{]}{(}[url]{)}
-        </code></p>
+         <p>
+            This action sends the title and URL of the active article to iA
+            Writer as markdown.
+         </p>
+         <a href="../blog.html" class="back-home">Back to Blog</a>
+      </div>
 
-        <p>This action sends the title and URL of the active article to iA Writer as markdown.</p>
-        <a href="../blog.html" class="back-home">Back to Blog</a>
-    </div>
-
-    <footer>
-        <p><a href="https://ldstephens.me/feed.xml">RSS Feed</a> | <a href="https://letterbird.co/ldstephens">Email Me</a></p>
-       &copy;ldstephens - All Rights Reserved
-    </footer>
-
-</body>
+      <footer>
+         <p>
+            <a href="https://ldstephens.me/feed.xml">RSS Feed</a> |
+            <a href="https://letterbird.co/ldstephens">Email Me</a>
+         </p>
+         <p>
+            This work is licensed under
+            <a
+               href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1"
+               >CC BY-SA 4.0</a
+            >
+         </p>
+      </footer>
+   </body>
 </html>
