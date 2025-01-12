@@ -1,53 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Drafts send file to iA Writer</title>
-    <link rel="stylesheet" href="../style.css">
-</head>
-<body>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Drafts send file to iA Writer</title>
+      <link rel="stylesheet" href="../style.css" />
+   </head>
+   <body>
+      <!-- Navigation -->
+      <nav>
+         <a href="../index.html">Home</a>
+         <a href="../blog.html">Blog</a>
+         <a href="../uses.html">Uses</a>
+      </nav>
 
-    <!-- Navigation -->
-    <nav>
-        <a href="../index.html">Home</a>
-        <a href="../blog.html">Blog</a>
-        <a href="../uses.html">Uses</a>
-    </nav>
+      <!-- Main Content -->
+      <div class="container">
+         <h1>Drafts send file to iA Writer</h1>
+         <div class="post-meta">Posted on April 8, 2024 by Loren</div>
+         <p>
+            <a href="https://getdrafts.com/">Drafts</a> is my go-to app for
+            capturing all my text-based ideas. Once I'm ready to turn those
+            ideas into blog posts, I rely on Drafts actions to move them to
+            <a href="https://ia.net/writer">iA Writer</a>, my preferred writing
+            environment.
+         </p>
 
-    <!-- Main Content -->
-    <div class="container">
-        <h1>Drafts send file to iA Writer</h1>
-        <div class="post-meta">Posted on April 8, 2024 by Loren</div>
-        <p><a href="https://getdrafts.com/">Drafts</a> is my go-to app for capturing all my text-based ideas. Once I'm ready to turn those ideas into blog posts, I rely on Drafts actions to move them to <a href="https://ia.net/writer">iA Writer</a>, my preferred writing environment.</p>
+         <p>
+            Previously, I used a “Save files as” Drafts action, which involved a
+            few cumbersome steps. First, I had to manually change the file
+            extension from .txt to .md (Markdown format for blog posts). Then, I
+            needed to navigate through Finder and select the specific folder
+            (Ideas or Drafts) where I wanted to save the file. This process felt
+            inefficient, and I wanted a more streamlined way to move my content
+            directly to the target folder.
+         </p>
 
-        <p>Previously, I used a “Save files as” Drafts action, which involved a few cumbersome steps. First, I had to manually change the file extension from .txt to .md (Markdown format for blog posts). Then, I needed to navigate through Finder and select the specific folder (Ideas or Drafts) where I wanted to save the file. This process felt inefficient, and I wanted a more streamlined way to move my content directly to the target folder.</p>
+         <p>
+            To create an action to do exactly this requires using Drafts
+            <a href="https://docs.getdrafts.com/docs/settings/bookmarks"
+               >Bookmark</a
+            >
+            feature.
+         </p>
 
-        <p>To create an action to do exactly this requires using Drafts <a href="https://docs.getdrafts.com/docs/settings/bookmarks">Bookmark</a> feature.</p>
+         <blockquote>
+            <p>
+               A bookmark is a reference to a folder in the file system.
+               Bookmarks allow you to grant permissions to work with files in
+               folders that Drafts would not otherwise be able to access due to
+               App Sandboxing security.”
+            </p>
 
-        <blockquote>
-        <p>A bookmark is a reference to a folder in the file system. Bookmarks allow you to grant permissions to work with files in folders that Drafts would not otherwise be able to access due to App Sandboxing security.”</p>
+            <p>
+               The
+               <a
+                  href="https://docs.getdrafts.com/docs/actions/steps/services#file"
+                  >File action step</a
+               >
+               can be used to save content from Drafts to files. File action
+               steps can be configured to use a Bookmark by selecting the
+               “Bookmark” destination, and assigning a bookmark name.
+            </p>
+         </blockquote>
 
-        <p>The <a href="https://docs.getdrafts.com/docs/actions/steps/services#file">File action step</a> can be used to save content from Drafts to files. File action steps can be configured to use a Bookmark by selecting the “Bookmark” destination, and assigning a bookmark name.</p>
-        </blockquote>
+         <p>
+            To get started, I installed the “Save to File in ‘Test’ Bookmark”
+            action, which writes to a file named “Test” in a designated
+            bookmark. I then customized the action for my needs, creating
+            Bookmarks for both my Ideas and Drafts folders in Finder. With these
+            actions in place, I can now save directly from Drafts to the desired
+            folders. Since iA Writer mirrors these folder structures, the files
+            automatically appear in the corresponding locations within iA
+            Writer.
+         </p>
 
-        <p>To get started, I installed the “Save to File in ‘Test’ Bookmark” action, which writes to a file named “Test” in a designated bookmark. I then customized the action for my needs, creating Bookmarks for both my Ideas and Drafts folders in Finder. With these actions in place, I can now save directly from Drafts to the desired folders. Since iA Writer mirrors these folder structures, the files automatically appear in the corresponding locations within iA Writer.</p>
+         <p><img src="https://i.snap.as/S21laMj7.png" alt="" title="" /></p>
 
-        <p><img src="https://i.snap.as/S21laMj7.png" alt="" title="" /></p>
+         <p>Resources:</p>
 
-        <p>Resources:</p>
+         <ol>
+            <li>
+               <a href="https://docs.getdrafts.com/docs/settings/bookmarks"
+                  >Bookmarks | Drafts User Guide</a
+               >
+            </li>
+            <li>
+               <a href="https://actions.getdrafts.com/a/1ps"
+                  >Save to File in “Test” Bookmark | Drafts Directory</a
+               >
+            </li>
+         </ol>
+         <a href="../blog.html" class="back-home">Back to Blog</a>
+      </div>
 
-        <ol>
-        <li><a href="https://docs.getdrafts.com/docs/settings/bookmarks">Bookmarks | Drafts User Guide</a></li>
-        <li><a href="https://actions.getdrafts.com/a/1ps">Save to File in “Test” Bookmark | Drafts Directory</a></li>
-        </ol>
-        <a href="../blog.html" class="back-home">Back to Blog</a>
-    </div>
-
-    <footer>
-        <p><a href="https://ldstephens.me/feed.xml">RSS Feed</a> | <a href="https://letterbird.co/ldstephens">Email Me</a></p>
-       &copy;ldstephens - All Rights Reserved
-    </footer>
-
-</body>
+      <footer>
+         <p>
+            <a href="https://ldstephens.me/feed.xml">RSS Feed</a> |
+            <a href="https://letterbird.co/ldstephens">Email Me</a>
+         </p>
+         <p>
+            This work is licensed under
+            <a
+               href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1"
+               >CC BY-SA 4.0</a
+            >
+         </p>
+      </footer>
+   </body>
 </html>
