@@ -7,14 +7,22 @@
         <atom:link href="https://ldstephens.me/feed.xml" rel="self" type="application/rss+xml" />
 
         <item>
-            <title>Re: Social networking alternatives for the Meta- and Musk-averse</title>
-            <link>https://ldstephens.me/posts/re-social-networking-alternatives-for-the-meta-and-musk-averse</link>
+            <title>iPhone one screen setup</title>
+            <link>https://ldstephens.me/posts/iphone-one-screen-setup</link>
             <description>
             <![CDATA[
-            <p>I saw this <a href="https://www.theverge.com/23429095/twitter-social-network-alternatives-mastodon-reddit-tumblr-cohost">Verge article</a> in my RSS feed about alternatives for the Meta- and Musk-averse and wondered if blogging was provided as an alternative. Well, you probably guessed blogging was not provided as an alternative—just more social media platforms. Look folks maybe it’s time to quit social media and start a blog. If what you’re using isn’t already enshittified it will be.</p>
+            <p>Hey friends, for the new year, I decided to clean up my iPhone's Home screen. While I've been using just one screen for a while now, I wanted to give it a fresh start.</p>
+
+            <p>A few weeks ago, I removed all apps from my Home screen except for those in the Dock. My plan was to only add back the apps I use most often. For everything else, I can just use Spotlight search or App Library. </p>
+
+            <p>Here’s my Home Screen:</p>
+
+            <figure>
+            <img src="https://i.imgur.com/tmjrAb7.png" alt="" />
+            </figure>
              ]]>
              </description>
-            <pubDate>Fri, 10 Jan 2025 10:31:31 -0500</pubDate>   
+            <pubDate>Mon, 13 Jan 2025 16:43:51 -0500</pubDate>   
         </item>
     </channel>
 </rss>
