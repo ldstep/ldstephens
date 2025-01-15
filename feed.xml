@@ -7,22 +7,22 @@
         <atom:link href="https://ldstephens.me/feed.xml" rel="self" type="application/rss+xml" />
 
         <item>
-            <title>iPhone one screen setup</title>
-            <link>https://ldstephens.me/posts/iphone-one-screen-setup</link>
+            <title>What happens on your device, stays on your device – until it doesn’t</title>
+            <link>https://ldstephens.me/posts/what-happens-on-your-device-stays-on-your-device-until-it-doesnt</link>
             <description>
             <![CDATA[
-            <p>Hey friends, for the new year, I decided to clean up my iPhone's Home screen. While I've been using just one screen for a while now, I wanted to give it a fresh start.</p>
+            <p>Thanks to <a href="https://decoding.io/2025/01/what-happens-on-your-device-stays-on-your-device-until-it-doesnt/">Zsolt Benke</a> for sharing this post from <a href="https://www.obdev.at/blog/what-happens-on-your-device-stays-on-your-device-until-it-doesnt/">Objective Development Blog</a>:</p>
 
-            <p>A few weeks ago, I removed all apps from my Home screen except for those in the Dock. My plan was to only add back the apps I use most often. For everything else, I can just use Spotlight search or App Library. </p>
+            <blockquote>
+            <p>macOS Sequoia introduces another new feature labelled Help Apple Improve Search, which sends and stores various search queries from Safari, Spotlight, and other sources to improve search results.</p>
 
-            <p>Here’s my Home Screen:</p>
+            <p>This feature, too, is enabled by default and is well hidden at the very bottom of System Settings &gt; Spotlight.</p>
+            </blockquote>
 
-            <figure>
-            <img src="https://i.imgur.com/tmjrAb7.png" alt="" />
-            </figure>
+            <p>It turns out that I had disabled this setting on my iPhone, and iPad but not on my Mac so I disabled it. </p>
              ]]>
              </description>
-            <pubDate>Mon, 13 Jan 2025 16:43:51 -0500</pubDate>   
+            <pubDate>Wed, 15 Jan 2025 10:11:15 -0500</pubDate>   
         </item>
     </channel>
 </rss>
