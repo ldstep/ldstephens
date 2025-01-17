@@ -3,26 +3,34 @@
     <channel>
         <title>ldstephens</title>
         <link>https://ldstephens.me</link>
-        <description>A blog about technology.</description>
+        <description>A blog about technology and more.</description>
         <atom:link href="https://ldstephens.me/feed.xml" rel="self" type="application/rss+xml" />
 
         <item>
-            <title>Celebrated Lawyer ‘Fires’ Meta As A Client Over Zuck’s ‘Neo-Nazi Madness’</title>
-            <link>https://ldstephens.me/posts/celebrated-lawyer-fires-meta-as-a-client-over-zucks-neo-nazi-madness</link>
+            <title>James’ Coffee Blog</title>
+            <link>https://ldstephens.me/posts/james-coffee-blog</link>
             <description>
             <![CDATA[
-            <p><a href="https://www.techdirt.com/2025/01/15/celebrated-lawyer-fires-meta-as-a-client-over-zucks-neo-nazi-madness/">Mike Masnick</a></p>
+            <p>Hey friends, the other day, I was reading a blog post (wish I could remember whose!) about the indie web. It had several links, and I clicked one that took me to <a href="https://indieweb.org">indieweb.org</a>. While browsing there, I stumbled upon <a href="https://jamesg.blog">James’ Coffee Blog</a>.</p>
+
+            <p>What really hooked me was James’ content. It’s a mix of tech and personal topics. I spent some time exploring his site and found tons of interesting articles to dive into. Needless to say, James’ Coffee Blog is now part of my RSS feed!</p>
+
+            <p>If you’re not already following James, check out his site. I think you’ll find it worthwhile. </p>
+
+            <p>This is something that I highlighted while reading one of his <a href="https://jamesg.blog/2025/01/15/static-dynamic/">posts</a>. </p>
 
             <blockquote>
-            <p>And earlier this week, he announced that he has “<a href="https://bsky.app/profile/marklemley.bsky.social/post/3lfnpmxtam22r">fired Meta as a client</a>.” Lemley was representing Meta in the <a href="https://www.techdirt.com/2023/07/11/a-bunch-of-authors-sue-openai-claiming-copyright-infringement-because-they-dont-understand-copyright/">Kadrey v. Meta lawsuit</a> regarding Meta’s use of books in training its AI. And, as the docket shows, on Monday, he withdrew as an attorney for Meta:</p>
+            <p>Having a static site is significant to me because:</p>
 
-            <p>As Lemley noted on various social media profiles, he cannot stomach what he sees as Zuckerberg’s embrace of nonsense and this is how he is responding to “Mark Zuckerberg and Facebook’s descent into toxic masculinity and Neo-Nazi madness.”</p>
+            <p>Static sites are fast (when engineered with performance in mind, of course!0.
+            There is a significantly reduced admin tax. If my publishing tool goes down for any reason, my static site can still be available.
+            I enjoy having folders of text files to edit: both markdown for posts and HTML for templates.</p>
             </blockquote>
 
-            <p>👏👏👏</p>
+            <p>I couldn’t agree more, static sites offer speed, simplicity, and the satisfaction of working directly with text files!</p>
              ]]>
              </description>
-            <pubDate>Thu, 16 Jan 2025 09:55:40 -0500</pubDate>   
+            <pubDate>Fri, 17 Jan 2025 10:43:46 -0500</pubDate>   
         </item>
     </channel>
 </rss>
