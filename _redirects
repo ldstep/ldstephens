@@ -10,4 +10,4 @@
 /:slug /posts/:slug 301
 
 # Catch-all should be last
-/* /index 200
+/* /404.html 404
