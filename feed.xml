@@ -7,20 +7,14 @@
         <atom:link href="https://ldstephens.me/feed.xml" rel="self" type="application/rss+xml" />
 
         <item>
-            <title>You Can Build Your Own Static Blog - Here's How!</title>
-            <link>https://ldstephens.me/post/you-can-build-your-own-static-blog-heres-how</link>
+            <title>Apple Intelligence and iPhone battery drain</title>
+            <link>https://ldstephens.me/post/apple-intelligence-iphone-battery-drain</link>
             <description>
             <![CDATA[
-            <p>Hey friends, I bet a lot of you with a personal blog on platforms like Bear Blog, Pika, Write.as, have thought about building your own blog at some point. I know I was curious—until I finally decided to do for it! I didn’t have much knowledge of HTML or CSS, but I knew just enough to want to give it a shot. Plus, I figured I could use AI tools like ChatGPT or Claude to help me get started and tackle the stuff I didn’t know how to do. And the result? This blog.</p>
-
-            <p>Maybe you’ve thought about creating your own blog too but felt overwhelmed by HTML, CSS, or all the technical details. Don’t worry, you’re not alone! The great news is that you can build a basic static blog site without needing a static site generator, the terminal, or advanced coding skills. With a little help from AI tools, it’s totally doable to create a site with an Atom feed for RSS. </p>
-
-            <p>Let’s break it down step by step. I’ve asked ChatGPT for assistance with this task. The final outcome is a very basic, static blog that serves as a step-by-step guide to help you get started. </p>
-
-            <p><a href="https://ldstephens.me/posts/you-can-build-your-own-static-blog-heres-how">More</a></p>
+            <p>Hey friends, I’ve recently noticed that my iPhone 15 Pro Max battery is draining faster than usual. Is this just me? Definitely not. <a href="https://forums.macrumors.com/threads/apple-intelligence-battery-drain.2442119/">Lots of folks</a> are discussing this issue after enabling Apple Intelligence. For now, I’ve disabled it because I don’t find it particularly useful on my iPhone. After disabling Apple Intelligence my battery life is back to what it was before enabling it.</p>
              ]]>
              </description>
-            <pubDate>Fri, 24 Jan 2025 11:54:14 -0500</pubDate>   
+            <pubDate>Fri, 24 Jan 2025 17:54:37 -0500</pubDate>   
         </item>
     </channel>
 </rss>
