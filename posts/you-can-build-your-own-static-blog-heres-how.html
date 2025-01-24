@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>You Can Build Your Own Static Blog - Here's How!</title>
+      <link rel="stylesheet" href="../style.css" />
+   </head>
+   <body>
+      <!-- Navigation -->
+      <nav>
+         <a href="../index.html">Home</a>
+         <a href="../blog.html">Blog</a>
+         <a href="../uses.html">Uses</a>
+      </nav>
+
+      <!-- Main Content -->
+      <div class="container">
+         <h1>You Can Build Your Own Static Blog - Here's How!</h1>
+         <div class="post-meta">Posted on January 24, 2025 by Loren</div>
+         <p>
+            Hey friends, I bet a lot of you with a personal blog on platforms
+            like Bear Blog, Pika,
+            <a class="autolink" href="https://Write.as">Write.as</a>, have
+            thought about building your own blog at some point. I know I was
+            curious—until I finally decided to do for it! I didn’t have much
+            knowledge of HTML or CSS, but I knew just enough to want to give it
+            a shot. Plus, I figured I could use AI tools like ChatGPT or Claude
+            to help me get started and tackle the stuff I didn’t know how to do.
+            And the result? This blog.
+         </p>
+
+         <p>
+            Maybe you’ve thought about creating your own blog too but felt
+            overwhelmed by HTML, CSS, or all the technical details. Don’t worry,
+            you’re not alone! The great news is that you can build a basic
+            static blog site without needing a static site generator, the
+            terminal, or advanced coding skills. With a little help from AI
+            tools, it’s totally doable to create a site with an Atom feed for
+            RSS.
+         </p>
+
+         <p>
+            Let’s break it down step by step. I’ve asked ChatGPT for assistance
+            with this task. The final outcome is a very basic, static blog that
+            serves as a step-by-step guide to help you get started.
+         </p>
+
+         <hr />
+
+         <h4>Step 1: Understand the Basics</h4>
+
+         <p>
+            Before diving in, let’s get some quick definitions out of the way:
+         </p>
+
+         <ul>
+            <li>
+               <strong>Static site</strong>: A website that doesn’t require a
+               database or fancy backend. Think of it as a collection of simple
+               HTML files.
+            </li>
+            <li>
+               <strong>Atom feed</strong>: A type of RSS feed that allows people
+               to subscribe to your blog and get updates when you post new
+               content.
+            </li>
+         </ul>
+
+         <p>
+            You don’t need to be an expert at these. Just know that they’re
+            essential to making a functional blog.
+         </p>
+
+         <hr />
+
+         <h4>Step 2: Pick the Right Tools</h4>
+
+         <p>
+            AI can do a lot of the heavy lifting for you. Here are some tools
+            you’ll use:
+         </p>
+
+         <ol>
+            <li>
+               <strong>AI Code Generators</strong>: Platforms like ChatGPT can
+               generate the HTML, CSS, and Atom feed for you.
+            </li>
+            <li>
+               <strong>Text Editor</strong>: Use a simple editor like Visual
+               Studio Code (free) to tweak the code.
+            </li>
+            <li>
+               <strong>Hosting Service</strong>: GitHub Pages or Netlify are
+               great free options for hosting your static blog.
+            </li>
+         </ol>
+
+         <hr />
+
+         <h4>Step 3: Create the CSS File</h4>
+
+         <p>
+            Start by asking the AI to create a CSS file for your blog. Use this
+            prompt:
+         </p>
+
+         <blockquote>
+            <p>
+               “Create a CSS stylesheet for a blog with a header, main content
+               area, and a footer.”
+            </p>
+         </blockquote>
+
+         <p>Here’s an example of what the AI might generate:</p>
+
+         <pre><code class="css">/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+main {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #007BFF;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.blog-list {
+  margin-top: 2rem;
+}
+
+.blog-list a {
+  text-decoration: none;
+  color: #007BFF;
+}
+
+.blog-list a:hover {
+  text-decoration: underline;
+}
+</code></pre>
+
+         <p>Save this file as <code>styles.css</code>.</p>
+
+         <hr />
+
+         <h4>Step 4: Link the CSS File in Your HTML</h4>
+
+         <p>
+            Next, update your HTML files to reference the CSS file. For example:
+         </p>
+
+         <pre><code class="html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+  &lt;title&gt;My Blog&lt;/title&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;styles.css&quot;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;header&gt;
+    &lt;h1&gt;Welcome to My Blog&lt;/h1&gt;
+    &lt;nav&gt;
+      &lt;a href=&quot;index.html&quot;&gt;Home&lt;/a&gt;
+      &lt;a href=&quot;blog.html&quot;&gt;Blog&lt;/a&gt;
+    &lt;/nav&gt;
+  &lt;/header&gt;
+  &lt;main&gt;
+    &lt;p&gt;This is the home page of my blog. Use the navigation to explore posts!&lt;/p&gt;
+  &lt;/main&gt;
+  &lt;footer&gt;
+    &lt;p&gt;&amp;copy; 2025 My Blog&lt;/p&gt;
+  &lt;/footer&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+         <p>
+            Save this file as <code>index.html</code>. It will serve as the
+            homepage for your site.
+         </p>
+
+         <hr />
+
+         <h4>Step 5: Create the Blog Page</h4>
+
+         <p>
+            Next, ask the AI to generate a separate page for listing blog posts.
+            Use this prompt:
+         </p>
+
+         <blockquote>
+            <p>
+               “Create an HTML file for a blog page listing multiple posts with
+               links to individual post pages.”
+            </p>
+         </blockquote>
+
+         <p>Here’s an example:</p>
+
+         <pre><code class="html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+  &lt;title&gt;Blog&lt;/title&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;styles.css&quot;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;header&gt;
+    &lt;h1&gt;Blog&lt;/h1&gt;
+    &lt;nav&gt;
+      &lt;a href=&quot;index.html&quot;&gt;Home&lt;/a&gt;
+      &lt;a href=&quot;blog.html&quot;&gt;Blog&lt;/a&gt;
+    &lt;/nav&gt;
+  &lt;/header&gt;
+  &lt;main&gt;
+    &lt;section class=&quot;blog-list&quot;&gt;
+      &lt;h2&gt;Recent Posts&lt;/h2&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&quot;blog/post1.html&quot;&gt;Post 1&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;blog/post2.html&quot;&gt;Post 2&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;blog/post3.html&quot;&gt;Post 3&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/section&gt;
+  &lt;/main&gt;
+  &lt;footer&gt;
+    &lt;p&gt;&amp;copy; 2025 My Blog&lt;/p&gt;
+  &lt;/footer&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+         <p>
+            Save this file as <code>blog.html</code>. It will serve as the blog
+            page for your site.
+         </p>
+
+         <hr />
+
+         <h4>Step 6: Create Individual Blog Posts</h4>
+
+         <p>
+            For each blog post, create a separate HTML file. Here’s an example
+            for <code>post1.html</code>:
+         </p>
+
+         <pre><code class="html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+  &lt;title&gt;Post 1&lt;/title&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;../styles.css&quot;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;header&gt;
+    &lt;h1&gt;Post 1&lt;/h1&gt;
+    &lt;nav&gt;
+      &lt;a href=&quot;../index.html&quot;&gt;Home&lt;/a&gt;
+      &lt;a href=&quot;../blog.html&quot;&gt;Blog&lt;/a&gt;
+    &lt;/nav&gt;
+  &lt;/header&gt;
+  &lt;main&gt;
+    &lt;article&gt;
+      &lt;p&gt;This is the content of Post 1. Welcome to my first blog post!&lt;/p&gt;
+    &lt;/article&gt;
+  &lt;/main&gt;
+  &lt;footer&gt;
+    &lt;p&gt;&amp;copy; 2025 My Blog&lt;/p&gt;
+  &lt;/footer&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+         <p>
+            Place this file in a <code>blog</code> folder (e.g.,
+            <code>blog/post1.html</code>). Repeat for each new post, updating
+            the links in <code>blog.html</code>.
+         </p>
+
+         <hr />
+
+         <h4>Step 7: Create an Atom Feed</h4>
+
+         <p>
+            Ask the AI to generate an Atom feed for your blog. Use this prompt:
+         </p>
+
+         <blockquote>
+            <p>
+               “Create an Atom feed for a blog with multiple posts, each with
+               its own link and publication date.”
+            </p>
+         </blockquote>
+
+         <p>Update the feed as needed when you add new posts.</p>
+
+         <hr />
+
+         <h4>Step 8: Host Your Blog</h4>
+
+         <p>Now that you have your files, it’s time to put them online.</p>
+
+         <ol>
+            <li>
+               <strong>GitHub Pages</strong>: If you’re using GitHub, create a
+               new repository and upload your files. Go to the repository
+               settings and enable GitHub Pages. Your blog will be live at
+               <code>https://yourusername.github.io/your-repo-name/</code>.
+            </li>
+            <li>
+               <strong>Netlify</strong>: Drag and drop your files into Netlify,
+               and it will instantly publish your site.
+            </li>
+         </ol>
+
+         <hr />
+
+         <h4>Step 9: Update Your Blog</h4>
+
+         <p>Every time you write a new post, you’ll need to:</p>
+
+         <ol>
+            <li>
+               Add a new HTML file for the post in the <code>blog</code> folder.
+            </li>
+            <li>
+               Link it to the <code>blog.html</code> page under the &quot;Recent
+               Posts&quot; section.
+            </li>
+            <li>
+               Update the <code>atom.xml</code> feed with the new post details.
+            </li>
+            <li>Upload the updated files to your hosting service.</li>
+         </ol>
+
+         <hr />
+
+         <h3>Final Thoughts</h3>
+
+         <p>
+            Building a static blog doesn’t have to be complicated. With AI tools
+            to generate code and free hosting platforms to get your site online,
+            you can create a functional blog. Once it’s live, you’ll have your
+            space to share your thoughts with the world.
+         </p>
+
+         <a href="../blog.html" class="back-home">Back to Blog</a>
+      </div>
+
+      <footer>
+         <p>
+            <a href="https://ldstephens.me/feed.xml">RSS Feed</a> |
+            <a href="https://letterbird.co/ldstephens">Email Me</a>
+         </p>
+         <p>
+            This work is licensed under
+            <a
+               href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1"
+               >CC BY-SA 4.0</a
+            >
+         </p>
+      </footer>
+   </body>
+</html>
