@@ -7,22 +7,20 @@
         <atom:link href="https://ldstephens.me/feed.xml" rel="self" type="application/rss+xml" />
 
         <item>
-            <title>Re: Zed fonts</title>
-            <link>https://ldstephens.me/posts/re-zed-fonts</link>
+            <title>You Can Build Your Own Static Blog - Here's How!</title>
+            <link>https://ldstephens.me/post/you-can-build-your-own-static-blog-heres-how</link>
             <description>
             <![CDATA[
-            <p>Hey friends, I know many of you prefer mono fonts for writing and coding. I recently discovered a new mono-spaced font that you might be interested in. Macosguru <a href="https://bicycleforyourmind.com/links%20of%20note%202025-01-21">posted</a> about a new text editor he found and also mentioned that the app’s default font, Zed mono, was clean and well-designed.</p>
+            <p>Hey friends, I bet a lot of you with a personal blog on platforms like Bear Blog, Pika, Write.as, have thought about building your own blog at some point. I know I was curious—until I finally decided to do for it! I didn’t have much knowledge of HTML or CSS, but I knew just enough to want to give it a shot. Plus, I figured I could use AI tools like ChatGPT or Claude to help me get started and tackle the stuff I didn’t know how to do. And the result? This blog.</p>
 
-            <blockquote>
-            <p><a href="https://zed.dev/">Zed</a> is a new text editor which is built around the collaboration between humans and AI. I am not interested in that particular activity but it is an interesting addition to the world of text editors. It is snappy, clean, and modern. I don’t have a need for it, having immersed myself in Emacs. But if you are looking for an editor, I would give this a shot.</p>
+            <p>Maybe you’ve thought about creating your own blog too but felt overwhelmed by HTML, CSS, or all the technical details. Don’t worry, you’re not alone! The great news is that you can build a basic static blog site without needing a static site generator, the terminal, or advanced coding skills. With a little help from AI tools, it’s totally doable to create a site with an Atom feed for RSS. </p>
 
-            <p>Talking about Zed. I loved the fonts that the editor uses as default. They have made them available.<a href="https://github.com/zed-industries/zed-fonts">The Zed Mono and Sans typefaces, custom built from Iosevka</a>. I can’t resist a free font, specially a well-designed, clean one. Get them to use in your editor of choice.</p>
-            </blockquote>
+            <p>Let’s break it down step by step. I’ve asked ChatGPT for assistance with this task. The final outcome is a very basic, static blog that serves as a step-by-step guide to help you get started. </p>
 
-            <p>Like Macosguru, I’m not interested in Zed’s text editor, but I did download the mono fonts. I’m currently typing this in MarkEdit using the Zed mono-spaced font, and I like it. I’m going to use it for a while and see if it sticks for me. Check out the Zed editor and Zed fonts for more information.</p>
+            <p><a href="https://ldstephens.me/posts/you-can-build-your-own-static-blog-heres-how">More</a></p>
              ]]>
              </description>
-            <pubDate>Tue, 21 Jan 2025 14:40:34 -0500</pubDate>   
+            <pubDate>Fri, 24 Jan 2025 11:54:14 -0500</pubDate>   
         </item>
     </channel>
 </rss>
