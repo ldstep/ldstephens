@@ -7,18 +7,20 @@
         <atom:link href="https://ldstephens.me/feed.xml" rel="self" type="application/rss+xml" />
 
         <item>
-            <title>Now I’m doing Yoga</title>
-            <link>https://ldstephens.me/post/now-im-doing-yoga</link>
+            <title>Blog setup flip-flop</title>
+            <link>https://ldstephens.me/post/blog-setup-flip-flop</link>
             <description>
             <![CDATA[
-            <p>Hey friends, at 80, I like to think I’m pretty fit for my age. I’m 6 feet tall and weigh 165 pounds. Trix, our dog, and I walk 2 miles every single day, no exceptions. We’ve got a 10-acre property that keeps me plenty busy. In the winter, we heat the house with firewood I cut and split myself. I have a 35-ton log splitter that makes the job easier. Staying active is just who I am.</p>
+            <p>Yesterday was a bit of a rollercoaster when it came to my blog setup. I started the day with a plan after reading Herman’s <a href="https://herman.bearblog.dev/manifesto/">Bear Manifesto</a> post: move ldstephens back to Bearblog. This change would reduce the friction associated with posting to a static site, and Bearblog would provide me with built-in analytics. Seemed like a win-win.</p>
 
-            <p>A few weeks ago I took a tumble down the basement stairs. Luckily I didn’t get hurt badly. A sore hip, sore back, and a gash on the palm of my left hand from attempting to catch myself. Oh yeah, my Apple Watch didn’t detect my fall. What the fuck? </p>
+            <p>Later in the afternoon, I tackled a necessary but tedious task in Bearblog—changing all the canonical links to alias and moved the DNS server setting to Bearblog.</p>
 
-            <p>This isn’t my only fall over the last few years. As you age, poor balance becomes a concern, as the risk of falls increases. So with this last fall, Lisa insisted that I start doing Yoga that focuses on improving balance and core strength. So to get her off my back I agreed to start doing Yoga three times a week. Week one I realized how shitty my balance is. Week two I’m starting to see some slight improvement. Now on top of everything else that I do, I’m doing yoga three times a week.</p>
+            <p>And then, plot twist! By the evening, I decided to move ldstephens back to Netlify. At the end of the day, I just love that I built this site myself. There’s something satisfying about knowing it's mine, running on my own setup.</p>
+
+            <p>So, after all that back and forth, I'm right back where I started. But hey, sometimes you have to try something just to confirm that what you had was already the best fit.</p>
              ]]>
              </description>
-            <pubDate>Sat, 25 Jan 2025 18:23:14 -0500</pubDate>   
+            <pubDate>Wed, 29 Jan 2025 14:20:10 -0500</pubDate>   
         </item>
     </channel>
 </rss>
