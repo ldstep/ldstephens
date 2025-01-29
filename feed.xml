@@ -8,7 +8,7 @@
 
         <item>
             <title>Blog setup flip-flop</title>
-            <link>https://ldstephens.me/post/blog-setup-flip-flop</link>
+            <link>https://ldstephens.me/posts/blog-setup-flip-flop</link>
             <description>
             <![CDATA[
             <p>Yesterday was a bit of a rollercoaster when it came to my blog setup. I started the day with a plan after reading Herman’s <a href="https://herman.bearblog.dev/manifesto/">Bear Manifesto</a> post: move ldstephens back to Bearblog. This change would reduce the friction associated with posting to a static site, and Bearblog would provide me with built-in analytics. Seemed like a win-win.</p>
