@@ -7,20 +7,22 @@
         <atom:link href="https://ldstephens.me/feed.xml" rel="self" type="application/rss+xml" />
 
         <item>
-            <title>Blog setup flip-flop</title>
-            <link>https://ldstephens.me/posts/blog-setup-flip-flop</link>
+            <title>On tiny corners</title>
+            <link>https://ldstephens.me/posts/on-tiny-corners</link>
             <description>
             <![CDATA[
-            <p>Yesterday was a bit of a rollercoaster when it came to my blog setup. I started the day with a plan after reading Herman’s <a href="https://herman.bearblog.dev/manifesto/">Bear Manifesto</a> post: move ldstephens back to Bearblog. This change would reduce the friction associated with posting to a static site, and Bearblog would provide me with built-in analytics. Seemed like a win-win.</p>
+            <p><a href="https://manuelmoreale.com/tiny-corners">Manu</a></p>
 
-            <p>Later in the afternoon, I tackled a necessary but tedious task in Bearblog—changing all the canonical links to alias and moved the DNS server setting to Bearblog.</p>
+            <blockquote>
+            <p>The more I look around the web the more I’m convinced we should all treasure our own tiny corners of the web. My site is precious. Precious for me. It is mine to do what I want. I can build it, I can destroy it, I can shape it, I can let it rot. I can change it or let it stay still. I can make it super busy or let it go dormant. I can make it welcoming or hostile. I’m in charge of all those decisions and no one can come here and tell me what I should do with it. The only moderation rules are the ones dictated by my morals and I own the responsibility of my words. My name is on it, my face is on it. I write and say the things I want to write and say at this very specific moment in time, based on the person I am and the things I believe in, and no one can force me to do otherwise. There’s something incredibly liberating about all this.</p>
+            </blockquote>
 
-            <p>And then, plot twist! By the evening, I decided to move ldstephens back to Netlify. At the end of the day, I just love that I built this site myself. There’s something satisfying about knowing it's mine, running on my own setup.</p>
+            <p>I really appreciate what Manu wrote here. One big reason I moved ldstephens to a static site, besides the challenge of doing it, was that I didn’t want to continue relying on someone else’s platform and be stuck following their rules.</p>
 
-            <p>So, after all that back and forth, I'm right back where I started. But hey, sometimes you have to try something just to confirm that what you had was already the best fit.</p>
+            <p>My blog is mine. I built it myself, and I’m proud of that. I learned a lot along the way building it. Like Manu, I can do whatever the hell I want with it. It’s my little corner of the web.</p>
              ]]>
              </description>
-            <pubDate>Wed, 29 Jan 2025 14:20:10 -0500</pubDate>   
+            <pubDate>Thu, 30 Jan 2025 11:47:11 -0500</pubDate>   
         </item>
     </channel>
 </rss>
