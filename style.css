@@ -30,7 +30,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-main);
-    color: #ff79c6; /* old = var(--heading-color);  */
+    color: #ffff66; /* old = var(--heading-color);  */
 }
 
 a {
@@ -192,7 +192,9 @@ nav a:hover {
 .blog-page a:visited {
     color: var(--visited-color);
 }
-
+.blog-page a:hover {
+    text-decoration: underline;
+}
 /* notes.html styling */
 .note {
     background-color: var(--code-background-color);
@@ -214,4 +216,7 @@ footer {
 
 .footnotes {
     font-size: smaller;   /* Relative to parent element */
+}
+h1 a {
+    color: #ff79c6 !important;
 }
