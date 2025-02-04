@@ -12,20 +12,18 @@
         </image>
 
         <item>
-            <title>January 29, 2025 at 2:27:19 PM</title>
+            <title>February 4, 2025 at 9:53:06 AM</title>
             <link>https://ldstephens.me/notes</link>
             <description>
             <![CDATA[
-            <p>January 10, 2025 I quoted <a href="https://mattstein.com/thoughts/default-apps-2023/">Matt Stein</a>. </p>
+            <p>Apple Notes on iOS 18 now has a new feature called Recent Notes. It lets you quickly jump between the last 10 notes you looked at. This makes it much easier and faster for people with lots of notes, as you don’t need to dig through all your folders.</p>
 
-            <blockquote>
-            <p>Abandoning Alfred for Raycast was hard, and it even took me two tries because it felt unthinkable, but Raycast is really good and wonderfully connected to other things I use.</p>
-            </blockquote>
+            <p>To access this feature, tap the three-dot menu in the top-right corner of the app. You’ll see a Recent Notes option. Tap it to view the last 10 notes you checked out.</p>
 
-            <p>At the time I wrote, “I think I need to try again,” so I did. I reinstalled Raycast for the umpteenth time. Yesterday, I returned to Alfred. Raycast is undoubtedly a great app. If I were starting fresh with a launcher, it would be my top choice. However, having used Alfred for so long, I find it difficult to abandon it.</p>
+            <p><a href="https://9to5mac.com/2025/02/03/apple-notes-recently-got-a-power-user-feature-ive-long-wanted/">Source</a></p>
             ]]>
              </description>
-            <pubDate>Wed, 29 Jan 2025 14:31:34 -0500</pubDate>   
+            <pubDate>Tue, 04 Feb 2025 09:55:23 -0500</pubDate>   
         </item>
     </channel>
 </rss>
