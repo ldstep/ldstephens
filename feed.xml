@@ -7,22 +7,16 @@
         <atom:link href="https://ldstephens.me/feed.xml" rel="self" type="application/rss+xml" />
 
         <item>
-            <title>On tiny corners</title>
-            <link>https://ldstephens.me/posts/on-tiny-corners</link>
+            <title>Blog setup flip-flop… again (but fixed now)</title>
+            <link>https://ldstephens.me/posts/blog-setup-flip-flop-again-but-fixed-now</link>
             <description>
             <![CDATA[
-            <p><a href="https://manuelmoreale.com/tiny-corners">Manu</a></p>
+            <p>Well, that was fun. The new layout and design are finally done, and everything is back up and running on Netlify where it belongs.</p>
 
-            <blockquote>
-            <p>The more I look around the web the more I’m convinced we should all treasure our own tiny corners of the web. My site is precious. Precious for me. It is mine to do what I want. I can build it, I can destroy it, I can shape it, I can let it rot. I can change it or let it stay still. I can make it super busy or let it go dormant. I can make it welcoming or hostile. I’m in charge of all those decisions and no one can come here and tell me what I should do with it. The only moderation rules are the ones dictated by my morals and I own the responsibility of my words. My name is on it, my face is on it. I write and say the things I want to write and say at this very specific moment in time, based on the person I am and the things I believe in, and no one can force me to do otherwise. There’s something incredibly liberating about all this.</p>
-            </blockquote>
-
-            <p>I really appreciate what Manu wrote here. One big reason I moved ldstephens to a static site, besides the challenge of doing it, was that I didn’t want to continue relying on someone else’s platform and be stuck following their rules.</p>
-
-            <p>My blog is mine. I built it myself, and I’m proud of that. I learned a lot along the way building it. Like Manu, I can do whatever the hell I want with it. It’s my little corner of the web.</p>
+            <p>After breaking the site (because, of course, I did), we’re back in business.</p>
              ]]>
              </description>
-            <pubDate>Thu, 30 Jan 2025 11:47:11 -0500</pubDate>   
+            <pubDate>Wed, 05 Feb 2025 16:41:33 -0500</pubDate>   
         </item>
     </channel>
 </rss>
