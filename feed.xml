@@ -7,16 +7,18 @@
         <atom:link href="https://ldstephens.me/feed.xml" rel="self" type="application/rss+xml" />
 
         <item>
-            <title>Blog setup flip-flop… again (but fixed now)</title>
-            <link>https://ldstephens.me/posts/blog-setup-flip-flop-again-but-fixed-now</link>
+            <title>Sleep Number vs. my snoring</title>
+            <link>https://ldstephens.me/posts/sleep-number-vs-my-snoring</link>
             <description>
             <![CDATA[
-            <p>Well, that was fun. The new layout and design are finally done, and everything is back up and running on Netlify where it belongs.</p>
+            <p>We recently got a Sleep Number bed. I snore, which makes it difficult for Lisa to sleep. The bed has a snore setting that automatically adjusts its position to help reduce snoring. When activated, it gently raises the head of the bed by a few degrees to open airways and improve breathing. So when I snore, Lisa can adjust my side of the bed until I stop.</p>
 
-            <p>After breaking the site (because, of course, I did), we’re back in business.</p>
+            <p>This morning, when I woke up, I was surprised to find myself almost upright. Lisa said she kept adjusting the bed until I quit snoring&#8211;and that was the position when I finally stopped. At this rate, I might as well start sleeping in a recliner.</p>
+
+            <p>By the way, the Sleep Number bed has been wonderful for my lower back.</p>
              ]]>
              </description>
-            <pubDate>Wed, 05 Feb 2025 16:41:33 -0500</pubDate>   
+            <pubDate>Thu, 06 Feb 2025 09:06:03 -0500</pubDate>   
         </item>
     </channel>
 </rss>
