@@ -7,18 +7,20 @@
         <atom:link href="https://ldstephens.me/feed.xml" rel="self" type="application/rss+xml" />
 
         <item>
-            <title>Sleep Number vs. my snoring</title>
-            <link>https://ldstephens.me/posts/sleep-number-vs-my-snoring</link>
+            <title>U.K. orders Apple to let it spy on users’ encrypted accounts</title>
+            <link>https://ldstephens.me/posts/uk-orders-apple-to-let-it-spy-on-users-encrypted-accounts</link>
             <description>
             <![CDATA[
-            <p>We recently got a Sleep Number bed. I snore, which makes it difficult for Lisa to sleep. The bed has a snore setting that automatically adjusts its position to help reduce snoring. When activated, it gently raises the head of the bed by a few degrees to open airways and improve breathing. So when I snore, Lisa can adjust my side of the bed until I stop.</p>
+            <p><a href="https://www.washingtonpost.com/technology/2025/02/07/apple-encryption-backdoor-uk/">Joseph Menn, The Washington Post</a></p>
 
-            <p>This morning, when I woke up, I was surprised to find myself almost upright. Lisa said she kept adjusting the bed until I quit snoring&#8211;and that was the position when I finally stopped. At this rate, I might as well start sleeping in a recliner.</p>
+            <blockquote>
+            <p>Security officials in the United Kingdom have demanded that Apple create a back door allowing them to retrieve all the content any Apple user worldwide has uploaded to the cloud.[…] The British government’s undisclosed order, issued last month, requires blanket capability to view fully encrypted material, not merely assistance in cracking a specific account, and has no known precedent in major democracies.[…] Rather than break the security promises it made to its users everywhere, Apple is likely to stop offering encrypted storage in the U.K., the people said. Yet that concession would not fulfill the U.K. demand for backdoor access to the service in other countries, including the United States.</p>
+            </blockquote>
 
-            <p>By the way, the Sleep Number bed has been wonderful for my lower back.</p>
+            <p>This is fucking crazy shit! If there’s a backdoor, hackers and cybercriminals will eventually find a way in, putting our security and privacy at serious risk. Our personal data could be stolen, leading to identity theft, financial fraud, and other attacks. It wouldn’t just be law enforcement using it—bad actors, including hackers and even foreign governments, could exploit the same weakness, violating users’ right to privacy and secure communication.</p>
              ]]>
              </description>
-            <pubDate>Thu, 06 Feb 2025 09:06:03 -0500</pubDate>   
+            <pubDate>Fri, 07 Feb 2025 14:09:11 -0500</pubDate>   
         </item>
     </channel>
 </rss>
