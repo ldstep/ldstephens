@@ -7,20 +7,14 @@
         <atom:link href="https://ldstephens.me/feed.xml" rel="self" type="application/rss+xml" />
 
         <item>
-            <title>U.K. orders Apple to let it spy on users’ encrypted accounts</title>
-            <link>https://ldstephens.me/posts/uk-orders-apple-to-let-it-spy-on-users-encrypted-accounts</link>
+            <title>Apple could pull iCloud from the UK</title>
+            <link>https://ldstephens.me/posts/apple-could-pull-icloud-from-the-uk</link>
             <description>
             <![CDATA[
-            <p><a href="https://www.washingtonpost.com/technology/2025/02/07/apple-encryption-backdoor-uk/">Joseph Menn, The Washington Post</a></p>
-
-            <blockquote>
-            <p>Security officials in the United Kingdom have demanded that Apple create a back door allowing them to retrieve all the content any Apple user worldwide has uploaded to the cloud.[…] The British government’s undisclosed order, issued last month, requires blanket capability to view fully encrypted material, not merely assistance in cracking a specific account, and has no known precedent in major democracies.[…] Rather than break the security promises it made to its users everywhere, Apple is likely to stop offering encrypted storage in the U.K., the people said. Yet that concession would not fulfill the U.K. demand for backdoor access to the service in other countries, including the United States.</p>
-            </blockquote>
-
-            <p>This is fucking crazy shit! If there’s a backdoor, hackers and cybercriminals will eventually find a way in, putting our security and privacy at serious risk. Our personal data could be stolen, leading to identity theft, financial fraud, and other attacks. It wouldn’t just be law enforcement using it—bad actors, including hackers and even foreign governments, could exploit the same weakness, violating users’ right to privacy and secure communication.</p>
+            <p>Hey friends, I know many of you who read my posts are in the U.K. You may have already read this. Quoting <a href="https://www.macrumors.com/2025/02/07/could-apple-pull-icloud-services-from-uk/">Tim Hardwick, MacRumors</a> <em>“A more dramatic response from Apple would involve completely removing iCloud services from the UK. While this would protect Apple's encryption standards, it would severely disrupt millions of UK users who rely on iCloud for photo storage, device backups, and document syncing. Users would need to find alternative cloud storage solutions and potentially lose access to years of accumulated data.”</em> Are you concerned about this possibility?</p>
              ]]>
              </description>
-            <pubDate>Fri, 07 Feb 2025 14:09:11 -0500</pubDate>   
+            <pubDate>Sun, 09 Feb 2025 11:01:44 -0500</pubDate>   
         </item>
     </channel>
 </rss>
