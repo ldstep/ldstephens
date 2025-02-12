@@ -12,14 +12,16 @@
         </image>
 
         <item>
-            <title>February 10, 2025, at 2:34:45 PM</title>
+            <title>February 11, 2025, at 7:46:40 PM</title>
             <link>https://ldstephens.me/notes</link>
             <description>
             <![CDATA[
-            <p>&#8220;The private companies in control of social-media networks possess an unprecedented ability <a href="https://www.theatlantic.com/ideas/archive/2025/02/trump-administration-voter-perception/681598/?gift=Je3D9AQS-C17lUTOnl2W8Eas8RqrWqgS4j0ZkQ85Plk">to manipulate and control the populace</a>.&#8221;</p>
+            <p>I had some fun playing around with 11ty in Glitch today. The only thing that really makes 11ty stand out from a regular static site with HTML and CSS is the ability to use Nunjucks templates.</p>
+
+            <p>This means you can make changes to your site by updating the template file, instead of having to manually edit every single file. It saves a lot of time! However, I'm not sure if rebuilding this particular site in 11ty would be worth the effort.</p>
             ]]>
              </description>
-            <pubDate>Mon, 10 Feb 2025 14:36:54 -0500</pubDate>   
+            <pubDate>Tue, 11 Feb 2025 19:48:36 -0500</pubDate>   
         </item>
     </channel>
 </rss>
