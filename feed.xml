@@ -7,18 +7,16 @@
         <atom:link href="https://ldstephens.me/feed.xml" rel="self" type="application/rss+xml" />
 
         <item>
-            <title>Cracked Corn 🌽</title>
-            <link>https://ldstephens.me/posts/cracked-corn</link>
+            <title>On - Which HTML element are you [Quiz]?</title>
+            <link>https://ldstephens.me/posts/on-which-html-element-are-you-quiz</link>
             <description>
             <![CDATA[
-            <p><img src="https://i.snap.as/QVy072ds.png" alt="" title="" /></p>
+            <p>James at James’ Coffee Blog created a <a href="https://jamesg.blog/2025/02/13/html-quiz">fun quiz</a> called “Which HTML element are you?” It has ten questions.</p>
 
-            <p>Feeding time around here is no joke! We go through 100 pounds of cracked corn every week to keep the deer and wild turkeys happy as they wander our 10-acre property. Our place is actually a Certified Wildlife Habitat with the state of New Jersey, and we love all the creatures that call it home.</p>
-
-            <p>On top of that, we go through 40 pounds of birdseed for all the birds. Of course, the raccoon has figured out a little trick—every night, it climbs the tree, hangs off the bird feeder, and dumps the seed just so it can feast. Smart little guy! I haven’t spotted the groundhog yet this year, but I’m sure it’ll make an appearance soon. </p>
+            <p>I took the quiz and &#8220;I’m the &lt;blockquote&gt; element! You’re great at gathering ideas from different sources and putting them together&#8221;.</p>
              ]]>
              </description>
-            <pubDate>Mon, 10 Feb 2025 14:36:54 -0500</pubDate>   
+            <pubDate>Thu, 13 Feb 2025 12:52:41 -0500</pubDate>   
         </item>
     </channel>
 </rss>
