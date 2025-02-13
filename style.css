@@ -1,31 +1,17 @@
 :root {
     --width: 691px;
-    --font-main: "JetBrains Mono", monospace;
-    --font-secondary: "JetBrains Mono", monospace;
+    --font-main: 'Menlo', monospace;
+    --font-secondary: 'Menlo', monospace;
     --font-scale: 1em;
-    --background-color: #fff;
-    --heading-color: #222;
-    --text-color: #444;
-    --link-color: #3273dc;
-    --visited-color: #3273dc;
-    --code-background-color: #f2f2f2;
-    --code-color: #222;
-    --blockquote-color: #222;
-    --shade-color: #F5F5F5;
-}
-
-@media (prefers-color-scheme: dark) {
-    :root {
-        --background-color: #01242e;
-        --heading-color: #eee;
-        --text-color: #ddd;
-        --link-color: #8cc2dd;
-        --visited-color: #8b6fcb;
-        --code-background-color: #000;
-        --code-color: #ddd;
-        --blockquote-color: #ccc;
-        --shade-color: #02333f;
-    }
+    --background-color: #1e1e2e;
+    --heading-color: #cdd6f4;
+    --text-color: #cdd6f4;
+    --link-color: #89b4fa;
+    --visited-color: #89b4fa;
+    --code-background-color: #313244;
+    --code-color: #cdd6f4;
+    --blockquote-color: #cdd6f4;
+    --shade-color: #02333f;
 }
 
 body {
@@ -44,7 +30,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-main);
-    color: var(--heading-color);
+    color: var(--heading-color); /* old = var(--heading-color);  */
 }
 
 a {
@@ -172,7 +158,7 @@ nav a {
 }
 
 nav a:hover {
-    background: var(--shade-color);
+    background: var(--code-background-color);
 }
 
 /* blog.html styling */
@@ -209,10 +195,9 @@ nav a:hover {
 .blog-page a:hover {
     text-decoration: underline;
 }
-
 /* notes.html styling */
 .note {
-    background-color: var(--shade-color);
+    background-color: var(--code-background-color);
     border-left: 4px solid var(--link-color);
     padding: 15px;
     margin-bottom: 20px;
@@ -224,10 +209,14 @@ nav a:hover {
     font-size: 1.em;
     margin-bottom: 10px;
  }
- footer {
+
+footer {
     font-size: 14px; /* Set to your desired size */
 }
 
 .footnotes {
     font-size: smaller;   /* Relative to parent element */
+}
+h1 a {
+    color: #ff79c6 !important;
 }
