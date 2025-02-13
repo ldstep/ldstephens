@@ -12,16 +12,14 @@
         </image>
 
         <item>
-            <title>February 11, 2025, at 7:46:40 PM</title>
+            <title>February 13, 2025, at 12:10:18 PM</title>
             <link>https://ldstephens.me/notes</link>
             <description>
             <![CDATA[
-            <p>I had some fun playing around with 11ty in Glitch today. The only thing that really makes 11ty stand out from a regular static site with HTML and CSS is the ability to use Nunjucks templates.</p>
-
-            <p>This means you can make changes to your site by updating the template file, instead of having to manually edit every single file. It saves a lot of time! However, I'm not sure if rebuilding this particular site in 11ty would be worth the effort.</p>
+            <p>GoodLinks: "GoodLinks 2.3 is out now! This update adds "Recently Deleted" list. Links are available for 30 days. After that time, links will be permanently deleted. I’ve lost count of the times I’ve deleted something after reading it, only to later want to refer back to it and have to waste time searching for it again. Fortunately, it will now be stored in the Recently Deleted folder for 30 days.</p>
             ]]>
              </description>
-            <pubDate>Tue, 11 Feb 2025 19:48:36 -0500</pubDate>   
+            <pubDate>Thu, 13 Feb 2025 12:12:08 -0500</pubDate>   
         </item>
     </channel>
 </rss>
